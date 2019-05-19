@@ -1,0 +1,23 @@
+.content-panel {
+  background: #fff;
+  position: relative;
+  padding-bottom: 4em;
+}
+
+.has-mid-elevation {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.02), 0 10px 10px rgba(0,0,0,0.02);
+}
+
+
+
+footer {
+  h1 {
+    margin-bottom: 0.5em;
+  }
+  a {
+    color: $text;
+  }
+  footer a:hover {
+    color: $color_accent;
+  }
+}

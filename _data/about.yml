@@ -1,0 +1,24 @@
+slogan: Empowering people to have immediate access to cryptocurrency and blockchain insights
+
+info:
+  - title: About Roostoo
+    description: Roostoo provides real-time blockchain and cryptocurrency data insights, via mobile application to offer users intuitive, convenient and actionable information for free. 
+  - title: Solving Market Pain Points
+    description: |
+      The current cryptocurrency market lacks transparency and real-time insights for retail investors and cryptocurrency users. 
+      
+      We believe these information shall be transparent to everyone, hence we are offering a single source of platform that aggregates real-time computable data insights for the public.
+
+customers:
+  - name: Retail Crypto Users
+    image: ../assets/img/customer-crypto-user.svg
+    description: Individuals who hold or interested to learn about crypto assets and exchanges
+  - name: Crypto Traders
+    image: ../assets/img/customer-trader.svg
+    description: Active traders who want access to real-time data insights and alerts, and executable arbitrage opportunities
+  - name: Crypto Funds
+    image: ../assets/img/customer-funds.svg
+    description: Crypto fund interested in retrieving real-time data from our listed exchanges (Packaged API Service)
+  - name: Research Entities
+    image: ../assets/img/customer-research.svg
+    description: Parties interested in historical crypto data from different exchanges for research analysis purpose

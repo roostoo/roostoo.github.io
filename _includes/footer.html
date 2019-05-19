@@ -1,0 +1,38 @@
+<footer class="footer">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-one-quarter">
+                <h1 class="is-uppercase has-text-weight-bold">Company</h1>
+                <ul>
+                    {% for item in site.data.footer.company_links %}
+                        <li>
+                            <a href="{{ item.link }}">{{ item.text }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>    
+            </div>
+
+            <div class="column is-one-quarter">
+                <h1 class="is-uppercase has-text-weight-bold">Legal</h1>
+                <ul>
+                    {% for item in site.data.footer.legal_links %}
+                    <li>
+                        <a href="{{ item.link }}">{{ item.text }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="column is-offset-one-quarter">
+                <h1 class="is-uppercase has-text-weight-bold">Follow Us</h1>
+                <ul>
+                    {% for item in site.data.footer.follow_us %}
+                    <li>
+                        <a href="{{ item.link }}">{{ item.text }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
