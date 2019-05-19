@@ -1,3 +1,73 @@
 ---
 layout: base
 ---
+
+{% assign mobile = site.data.data-and-api %}
+
+<style>
+    #bg-top-2b {
+        background-image: url(/assets/img/bg-top-2b.svg);
+        float: right;
+        width: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: block;
+        position: absolute;
+        top: 0;
+    }
+
+    @media only screen and (min-width: 1440px) {
+        #bg-top-2b {
+            margin-top: -20vw;
+        }
+    }
+
+        @media only screen and (min-width: 2560px) {
+        #bg-top-2b {
+            margin-top: -30vw;
+        }
+    }
+
+    #bg-top-2b img {
+        width: 100%;
+    }
+</style>
+
+<div id="bg-top-2b">
+    <img src="/assets/img/bg-top-2b.svg" style="visibility: hidden;" />
+</div>
+
+<section class="section">
+<div class="container">
+    <section class="section">
+        <h1 class="title is-1">Data and API Service</h1>
+        <p class="">
+            Please inquire for pricing and subscription
+        </p>
+    </section>
+
+    <section class="section">
+        <div class="columns is-mobile is-multiline">
+            {% for item in mobile.features %}
+            <div class="column is-full-mobile-only is-half-tablet-only is-quarter-desktop">
+                <div class="card">
+                    <figure class="image is-96x96">
+                        <img src="{{ item.icon }}">
+                    </figure>
+                    <div>
+                        <h3 class="has-text-weight-bold">
+                            {{ item.title }}
+                        </h3>
+                        <p>
+                            {{ item.description }}
+                        </p>
+                    </div>
+                </div> 
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+</div>
+</section>

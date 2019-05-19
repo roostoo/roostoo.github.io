@@ -4,6 +4,19 @@
   padding-bottom: 4em;
 }
 
+.card {
+  background: #fff;
+  border-radius: 16px;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  padding: 2em;
+}
+
+.has-small-elevation {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.02), 0 3px 6px rgba(0,0,0,0.02);
+}
+
 .has-mid-elevation {
   box-shadow: 0 14px 28px rgba(0,0,0,0.02), 0 10px 10px rgba(0,0,0,0.02);
 }
@@ -17,7 +30,7 @@ footer {
   a {
     color: $text;
   }
-  footer a:hover {
+  a:hover {
     color: $color_accent;
   }
 }

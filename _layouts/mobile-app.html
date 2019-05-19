@@ -1,3 +1,40 @@
 ---
 layout: base
 ---
+
+{% assign mobile = site.data.mobile-app %}
+
+<section class="section" >
+    <div class="container">
+        <section class="section">
+            <h1 class="title is-1">Roostoo Mobile App</h1>
+            <a class="button is-primary is-rounded has-text-black">
+                SIGN UP TO GET FREE RELEASED BETA
+            </a>
+        </section>
+
+        <section class="section">
+            <div class="columns is-mobile is-multiline">
+                {% for item in mobile.features %}
+                <div class="column is-mobile is-half">
+                    <div class="columns">
+                        <div class="column is-narrow">
+                            <figure class="image is-96x96">
+                                <img src="{{ item.icon }}">
+                            </figure>
+                        </div>
+                        <div class="column">
+                            <h3 class="has-text-weight-bold">
+                                {{ item.title }}
+                            </h3>
+                            <p>
+                                {{ item.description }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+    </div>
+</section>

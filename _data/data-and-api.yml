@@ -1,0 +1,26 @@
+features:
+  - title: Real-time API
+    icon: /assets/img/feature-api.svg
+    description: |-
+      Arbitrage Rates </br>
+      Orderbook Liquidity </br>
+      Latest Prices </br>
+      Exchange Volume
+  - title: Historical Arbitrage Data
+    icon: /assets/img/feature-history.svg
+    description: |-
+      Exchanges </br>
+      Token-Pairs
+  - title: Candlestick Data
+    icon: /assets/img/feature-candlesticks.svg
+    description: |-
+      OHLC (Open, High, Low, Close) </br>
+      1-min frequency </br>
+      1 month historical
+  - title: Other Data Analytics
+    icon: /assets/img/feature-data.svg
+    description: |-
+      GitHub Activities </br>
+      Google Search Trends </br>
+      Historical Exchanges Web Traffic </br> 
+      And more (Please inquire)

@@ -1,26 +1,26 @@
 company_links:
 - text: About
-  url: 
+  link: /about/
 - text: Mobile App
-  url: 
+  link: /mobile-app/
 - text: Data & API
-  url: 
-- text: Career
-  url: 
+  link: /data-and-api/
+- text: Careers
+  link: /careers/
 
 legal_links:
 - text: Term of Service
-  url: 
+  link: 
 - text: Privacy Policy
-  url: 
+  link: 
 
 follow_us:
 - text: LinkedIn
   icon: 
-  url:
+  link:
 - text: Twitter
   icon: 
-  url:
+  link:
 - text: GitHub
   icon: 
-  url: 
+  link: 
