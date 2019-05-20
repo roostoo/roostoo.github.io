@@ -1,16 +1,16 @@
 features:
-  - title: Real-time API
+  - title: Real-Time API
     icon: /assets/img/feature-api.svg
     description: |-
-      Arbitrage Rates </br>
-      Orderbook Liquidity </br>
-      Latest Prices </br>
-      Exchange Volume
+      Arbitrage rates </br>
+      Orderbook liquidity </br>
+      Latest prices </br>
+      Exchange volume
   - title: Historical Arbitrage Data
     icon: /assets/img/feature-history.svg
     description: |-
       Exchanges </br>
-      Token-Pairs
+      Token pairs
   - title: Candlestick Data
     icon: /assets/img/feature-candlesticks.svg
     description: |-
@@ -20,7 +20,7 @@ features:
   - title: Other Data Analytics
     icon: /assets/img/feature-data.svg
     description: |-
-      GitHub Activities </br>
+      GitHub activities </br>
       Google Search Trends </br>
-      Historical Exchanges Web Traffic </br> 
-      And more (Please inquire)
+      Historical exchanges web traffic </br> 
+      And more (please inquire)

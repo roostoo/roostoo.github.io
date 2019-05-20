@@ -1,12 +1,12 @@
 company_links:
 - text: About
-  link: /about/
+  link: /about
 - text: Mobile App
-  link: /mobile-app/
+  link: /mobile-app
 - text: Data & API
-  link: /data-and-api/
+  link: /data-and-api
 - text: Careers
-  link: /careers/
+  link: /careers
 
 legal_links:
 - text: Term of Service
