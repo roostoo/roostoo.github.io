@@ -15,12 +15,12 @@ legal_links:
   link: 
 
 follow_us:
-- text: LinkedIn
-  icon: 
-  link:
 - text: Twitter
-  icon: 
+  icon: fab fa-twitter
+  link:
+- text: LinkedIn
+  icon: fab fa-linkedin-in
   link:
 - text: GitHub
-  icon: 
+  icon: fab fa-github
   link: 
