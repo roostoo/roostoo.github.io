@@ -4,6 +4,7 @@ layout: base
 
 {% assign mobile = site.data.mobile-app %}
 
+{% if page.demo == true %}
 <style>
     /* Make the image fully responsive */
     .carousel-inner img {
@@ -11,6 +12,7 @@ layout: base
         height: 100%;
     }
 </style>
+
 
 <style>
     #bg-bottom-2c {
@@ -27,9 +29,10 @@ layout: base
 </style>
 
 
-<!-- <div id="bg-bottom-2c">
+<div id="bg-bottom-2c">
     <img src="/assets/img/bg-bottom-2c.svg" style="visibility: hidden;" />
-</div> -->
+</div>
+{% endif %}
 
 <section class="section" >
     <div class="container">
@@ -64,11 +67,11 @@ layout: base
             </div>
         </section>
         
-        
+        {% if page.demo == true %}
         <!-- Indicators -->
             <section class="section">
                 <div class="columns">
-                    <div class="column is-4">
+                    <div class="column is-narrow">
 
                         <div id="demo" class="carousel slide" data-ride="carousel">
                         
@@ -102,5 +105,6 @@ layout: base
                 </div>
             
             </section>
+            {% endif %}
     </div>
 </section>
