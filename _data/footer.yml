@@ -17,10 +17,10 @@ legal_links:
 follow_us:
 - text: Twitter
   icon: fab fa-twitter
-  link:
+  link: https://twitter.com/Roostoo1
 - text: LinkedIn
   icon: fab fa-linkedin-in
-  link:
+  link: https://www.linkedin.com/company/19179313/admin/
 - text: GitHub
   icon: fab fa-github
-  link: 
+  link: https://github.com/roostoo
