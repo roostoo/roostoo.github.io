@@ -15,6 +15,9 @@ legal_links:
   link: 
 
 follow_us:
+- text: Telegram
+  icon: fab fa-telegram-plane
+  link: http://telegram.roostoo.com
 - text: Twitter
   icon: fab fa-twitter
   link: https://twitter.com/Roostoo1
@@ -24,6 +27,4 @@ follow_us:
 - text: GitHub
   icon: fab fa-github
   link: https://github.com/roostoo
-- text: Telegram
-  icon: fab telegram-plane
-  link: http://telegram.roostoo.com
+
