@@ -1,24 +1,24 @@
-slogan: Empowering people to have immediate access to cryptocurrency and blockchain insights
+slogan: To spread insightful information about the cryptocurrency markets
 
 info:
   - title: About Roostoo
-    description: Roostoo provides real-time blockchain and cryptocurrency data insights, via mobile application to offer users intuitive, convenient and actionable information for free. 
+    description: Roostoo provides real-time blockchain and cryptocurrency data insights. Our mobile application offers users intuitive, convenient and actionable information for free. 
   - title: Solving Market Pain Points
     description: |
-      The current cryptocurrency market lacks transparency and real-time insights for retail investors and cryptocurrency users. 
-      
-      We believe these information shall be transparent to everyone, hence we are offering a single source of platform that aggregates real-time computable data insights for the public.
+      The cryptocurrency market lacks transparent, practical and unified information for retail investors. 
+
+      Everyone shall have convenient access to useful information metrics. Therefore, we are offering a single source platform that aggregates real-time computable data for the public. 
 
 customers:
-  - name: Retail Crypto Users
+  - name: Retail Investors
     image: ../assets/img/customer-crypto-user.svg
-    description: Individuals who hold or interested to learn about crypto assets and exchanges
+    description: Individuals interested in evaluating cryptocurrencies and different token metrics
   - name: Crypto Traders
     image: ../assets/img/customer-trader.svg
-    description: Active traders who want access to real-time data insights and alerts, and executable arbitrage opportunities
+    description: Active traders interested in real-time data, alerts, and executable arbitrage opportunities
   - name: Crypto Funds
     image: ../assets/img/customer-funds.svg
-    description: Crypto fund interested in retrieving real-time data from our listed exchanges (Packaged API Service)
+    description: Crypto funds interested in retrieving real-time data from our listed exchanges (Packaged API Service)
   - name: Research Entities
     image: ../assets/img/customer-research.svg
-    description: Parties interested in historical crypto data from different exchanges for research analysis purpose
+    description: Parties interested in historical data from different sources
