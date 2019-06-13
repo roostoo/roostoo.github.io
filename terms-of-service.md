@@ -10,8 +10,7 @@ permalink: /terms-of-service
 
 **Effective Date: Jun 11, 2019**
 
-
-These Terms of Use (“Terms”) apply to the mobile “Roostoo” application (“App”), [www.roostoo.com](https://www.roostoo.com) (“Website”) and other digital services (including “App”, “Website” collectively, the “Services”) offered by or on behalf of Roostoo Labs Pte. Ltd. (“Roostoo”), a company incorporated under the laws of Hong Kong. The terms "we", "us" and "our" also refer to Roostoo. The term “you” refers to the person using any service associated with Roostoo. 
+These Terms of Use (**“Terms”**) apply to the mobile “Roostoo” application (**“App”**), www.roostoo.com (**“Website”**) and other digital services (including **“App”**, **“Website”** collectively, the **“Services”**) offered by or on behalf of Roostoo Labs Pte. Ltd. (**“Roostoo”**), a company incorporated under the laws of Hong Kong. The terms **"we"**, **"us"** and **"our"** also refer to Roostoo. The term **“you”**, or **“user”** refers to the person using any service associated with Roostoo. 
 
 ## Overview
 
@@ -21,12 +20,15 @@ By downloading our App, accessing or using our Website (or any of our Site Servi
 
 Roostoo reserves the right at its sole discretion to amend any provision of the Agreement (including this Terms of Use) at any time in our sole discretion without any prior notice to you, and you agree that it is your responsibility to check for the updated terms of the Agreement on our Website regularly. In any event, by continuing to use any aspect of our Website and/or any of our Services you will be deemed to have accepted all amendments to the Agreement as may be implemented by Roostoo from time to time. If you do not wish to be bound by the Agreement, do not use any aspect of the Site or Site Services, cease all access to and use of our App, our Website, our Services, our products and services immediately. 
 
+
+
+
 ## No Financial Advice
 
 The Services are provided for information purposes only. Roostoo is not a financial advisor. You should consult your financial advisor before you make financial decisions based upon the Services. Your use of the Services is at your own risk. If you choose to use the Services for any purpose, you do so voluntarily and you assume all risks associated with such activities. To the maximum extent permitted by applicable law, you expressly agree that we are not providing financial advice via the Services.
 
 
-Disclaimers and Limitation of Liability
+## Disclaimers and Limitation of Liability
 
 The content on the Services is strictly for informational purposes. Nothing on or in the Services shall constitute or be construed as an offering of any currency or any financial instrument or as investment advice or investment recommendations (such as recommendations as to whether to purchase a currency or instrument) by Roostoo or a recommendation as to an investment strategy by Roostoo. Content on this Services should not be considered as information sufficient upon which to base an investment strategy. No content on the Services is tailored to the specific needs of any individual, entity or group of individuals. Roostoo expresses no opinion as to the future or expected value of any currency, security or other interest. Roostoo does not explicitly or implicitly recommend or suggest any investment strategy of any kind. 
 
@@ -35,6 +37,8 @@ The content provided on the Services is submitted to Roostoo by unrelated third-
 The Services and the content published within the Services may include inaccuracies or errors. Roostoo does not guarantee the accuracy, completeness, timeliness, security, availability or integrity of the Services or any content, and disclaims all liability for any errors or other inaccuracies relating to the Services or the content. Roostoo makes no representations about the suitability of the Services or any content, or that the Services or content will be uninterrupted or operate in combination with any software, service, system or other data or information. The Services and all content are provided “as is” without warranty of any kind. Roostoo disclaims all warranties and conditions that this service, its servers, or any email sent from Roostoo, are free of viruses or other harmful components. Roostoo hereby disclaims all warranties and conditions with regard to the Services and the content, including all implied warranties and conditions of merchantability, fitness for a particular purpose, title, and noninfringement. 
 
 To the maximum extent permitted by applicable law, Roostoo assumes no liability or responsibility for any (i) errors, mistakes, or inaccuracies of any content; (ii) personal injury or property damage, of any nature whatsoever, resulting from your access to or use of the service; (iii) any unauthorized access to or use of our servers and/or any and all information stored therein; (iv) any interruption or cessation of transmission to or from the Services; (v) any bugs, viruses, trojan horses, or the like that may be transmitted to or through the Services by any third party; (vi) any errors or omissions in any content or for any loss or damage incurred as a result of the use of any content posted, transmitted, or otherwise made available through the Services; and/or (vii) the defamatory, offensive, or illegal conduct of any third party.
+
+
 
 In no event shall Roostoo (and its respective officers, directors, employees, members, agents, and affiliates) be liable for any direct, indirect, punitive, incidental, special, or consequential damages or damages for lost profits, arising out of, or in any way connected with, your access to or use of the Services or with the delay or inability to access, display, or use the service; any computer viruses, information, software, linked services, products, and services obtained through the Services; or otherwise arising out of the access to or use of the Services whether based on a theory of negligence, contract, tort, strict liability, or otherwise, and even if Roostoo has been advised of the possibility of such damages. In no event shall Roostoo (and its respective officers, directors, employees, members, agents, and affiliates) be liable to you for any claims, proceedings, liabilities, obligations, damages, losses or costs. The limitation of liability reflects the allocation of risk between the parties. The limitations specified in this section will survive and apply even if any limited remedy specified in these terms is found to have failed of its essential purpose. The disclaimers, exclusions, and limitations of liability under this agreement will not apply to the extent prohibited by applicable law.
 
