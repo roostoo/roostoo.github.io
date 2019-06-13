@@ -11,7 +11,7 @@ permalink: /privacy-policy
 **Effective Date: Jun 11, 2019**
 
 
-Roostoo (“**we**” or “**us**” or “**our**”) respects the privacy of its users (“**user**” or “**you**”) that use our mobile “Roostoo” application (“**App**”), www.roostoo.com (“**Website**”) and other digital services (including “**App**”, “**Website**” collectively, the “**Services**”) offered by“**Roostoo**”. 
+Roostoo (“**we**” or “**us**” or “**our**”) respects the privacy of its users (“**user**” or “**you**”) that use our mobile “Roostoo” application (“**App**”), www.roostoo.com (“**Website**”) and other digital services (including “**App**”, “**Website**” collectively, the “**Services**”) offered by “**Roostoo**”. 
 
 This Privacy Policy explains when and why we collect personal information about people who use our App or visit our Website or use our Services and how we use the personal information, the conditions under which we may disclose your personal information to others, and how we keep personal information secure. This Privacy Policy also explains how we use cookies and similar technology on our Website and in connection with our Services. 
 
