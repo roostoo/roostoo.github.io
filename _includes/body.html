@@ -1,7 +1,7 @@
 
 <div class="content-panel has-mid-elevation">
 {% include navbar.html %}
-{{ content }}
+{{ content | markdownify }}
 </div>
 
 {% include footer.html %}

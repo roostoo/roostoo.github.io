@@ -9,10 +9,10 @@ company_links:
   link: /careers
 
 legal_links:
-- text: Term of Service
-  link: 
+- text: Terms of Service
+  link: /terms-of-service
 - text: Privacy Policy
-  link: 
+  link: /privacy-policy
 
 follow_us:
 - text: Telegram
