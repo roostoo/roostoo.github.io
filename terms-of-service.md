@@ -10,7 +10,7 @@ permalink: /terms-of-service
 
 **Effective Date: Jun 11, 2019**
 
-These Terms of Use (**“Terms”**) apply to the mobile “Roostoo” application (**“App”**), www.roostoo.com (**“Website”**) and other digital services (including **“App”**, **“Website”** collectively, the **“Services”**) offered by or on behalf of Roostoo Labs Pte. Ltd. (**“Roostoo”**), a company incorporated under the laws of Hong Kong. The terms **"we"**, **"us"** and **"our"** also refer to Roostoo. The term **“you”**, or **“user”** refers to the person using any service associated with Roostoo. 
+These Terms of Use (**“Terms”**) apply to the mobile “Roostoo” application (**“App”**), www.roostoo.com (**“Website”**) and other digital services (including **“App”**, **“Website”** collectively, the **“Services”**) offered by **“Roostoo”**. The terms **"we"**, **"us"** and **"our"** also refer to Roostoo. The term **“you”**, or **“user”** refers to the person using any service associated with Roostoo. 
 
 ## Overview
 
