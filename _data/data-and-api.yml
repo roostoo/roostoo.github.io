@@ -1,3 +1,5 @@
+description: |-
+  Roostoo provides packaged API service, including every data endpoint from our mobile application. Our WebSocket API allows real-time access to insightful data metrics, suitable for all kinds of users for research, investment, and trading purposes. 
 features:
   - title: Real-Time API
     icon: /assets/img/feature-api.svg
