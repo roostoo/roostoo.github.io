@@ -1,28 +1,28 @@
 description: |-
   Roostoo provides packaged API service, including every data endpoint from our mobile application. Our WebSocket API allows real-time access to insightful data metrics, suitable for all kinds of users for research, investment, and trading purposes. 
 features:
-  - title: Real-Time API
-    icon: /assets/img/feature-api.svg
-    description: |-
-      Arbitrage rates </br>
-      Orderbook liquidity </br>
-      Latest prices </br>
-      Exchange volume
-  - title: Historical Arbitrage Data
+  - title: Arbitrage
     icon: /assets/img/feature-history.svg
     description: |-
-      Exchanges </br>
-      Token pairs
-  - title: Candlestick Data
+      Live arbitrage rates </br>
+      Executable Liquidity
+  - title: Token Insights
+    icon: /assets/img/feature-api.svg
+    description: |-
+      Token Volatility </br>
+      Token Sharpe Ratio </br>
+      Token Github Metrics </br>
+      Token Community Metrics </br>
+      Daily Unique On-Chain Addresses
+  - title: Exchange Information
     icon: /assets/img/feature-candlesticks.svg
     description: |-
-      OHLC (Open, High, Low, Close) </br>
-      1-min frequency </br>
-      1 month historical
-  - title: Other Data Analytics
+      Exchange Web Traffic </br>
+      Exchange Fees </br>
+      Initial Exchange Offerings
+  - title: Trading (8 exchanges)
     icon: /assets/img/feature-data.svg
     description: |-
-      GitHub activities </br>
-      Google Search Trends </br>
-      Historical exchanges web traffic </br> 
-      And more (please inquire)
+      Real-time Prices </br>
+      Real-time Volume </br>
+      Market-Pair Quotes (OHLCV)
