@@ -19,7 +19,7 @@ Please note that your access to and use of our App, or Website, or Services, is 
 
 ## Information You Provide to Us
 
-Roostoo collects (a) the e-mail addresses of those who communicate with us via e-mail; (b) information related to your use of the App and Website. Usage Data including IP address, Cookies, geographic location, unique device identifiers for advertising (Google Advertiser ID or IDFA, for example) and date and time of your request; (c) aggregate information concerning what pages users access or visit; (d) information volunteered by the user (such as survey information and/or site registrations); (e) information regarding the type of mobile device or tablet (device ID, model and manufacturer, operating system, version) you are utilising to access our App, Website, and Services; (f) information such as your name, email address and password creation, when you participate in any interactive features of the Services (such as API keys, user accounts, configuration settings, and user referrals). 
+Roostoo collects (a) the e-mail addresses of those who communicate with us via e-mail; (b) information related to your use of the App and Website. Usage Data including in-app user activities, 1IP address, Cookies, geographic location, unique device identifiers for advertising (Google Advertiser ID or IDFA, for example) and date and time of your request; (c) aggregate information concerning what pages users access or visit; (d) information volunteered by the user (such as survey information and/or site registrations); (e) information regarding the type of mobile device or tablet (device ID, model and manufacturer, operating system, version) you are utilising to access our App, Website, and Services; (f) information such as your name, email address and password creation, when you participate in any interactive features of the Services (such as API keys, user accounts, configuration settings, and user referrals); (g) any other information that you share with Roostoo. 
 
 ## Your Consent to Our Use of Information
 
@@ -42,9 +42,15 @@ We do not share or sell your personal data to other organizations for commercial
 
 ## Security
 
-We take precautions to ensure the security of your personal information. However, we cannot guarantee that hackers or unauthorized personnel may gain access to your personal information despite our efforts. You should note that in using the Roostoo Services, your information will travel over the Internet and through third-party infrastructures and mobile networks, which are not under our control.
+Roostoo will take reasonable technical and organisational precautions to prevent the loss, misuse or alteration of your personal information. 
 
-We cannot protect, nor does this Privacy Policy apply to, any information that you transmit to other users. You should never transmit personal or identifying information to other users.
+Roostoo will store some the personal information you provide on its secure servers. 
+
+Information that Roostoo collects may be stored and processed in and transferred between any of the countries in which Roostoo operates to enable the use of the information in accordance with this privacy policy. 
+
+We take precautions to ensure the security of your personal information. However, we cannot guarantee that hackers or unauthorized personnel may gain access to your personal information despite our efforts. You should note that in using the Roostoo Services, your information will travel over the Internet and through third-party infrastructures and mobile networks, which are not under our control. 
+
+Roostoo is not responsible for the privacy policies or practices of any third party.We cannot protect, nor does this Privacy Policy apply to, any information that you transmit to other users. You should never transmit personal or identifying information to other users. 
 
 
 ## Data Storage
@@ -59,19 +65,18 @@ We do not intentionally gather Personal Data from visitors who are under the age
 
 ## Transfer and Processing of Personal Information
 
-Roostoo is located in Hong Kong. and the terms of this Privacy Policy and the related Terms of Use shall be governed by and construed in accordance with the laws of Hong Kong, without regard to any principles of conflicts of law. If you are not located in Hong Kong, by accessing the App, Website and Services and providing personal information through it, you agree and acknowledge and consent to the collection, maintenance, processing, and transfer of such information in and to Hong Kong and other countries and territories. These other jurisdictions may have different privacy laws from your home jurisdiction and provide different levels of protection of personal information. Roostoo does have processes and procedures in place to provide adequate levels of protection to protect the transfer of data from the European Union. You agree that the terms of this Privacy Policy and the Terms of Use will apply and you consent to the transmission and processing of your personal information in any jurisdiction.
+Roostoo is located in Hong Kong. and the terms of this Privacy Policy and the related Terms of Use shall be governed by and construed in accordance with the laws of Hong Kong, without regard to any principles of conflicts of law. If you are not located in Hong Kong, by accessing the App, Website and Services and providing personal information through it, you agree and acknowledge and consent to the collection, maintenance, processing, and transfer of such information in and to Hong Kong and other countries and territories. These other jurisdictions may have different privacy laws from your home jurisdiction and provide different levels of protection of personal information. Roostoo does have processes and procedures in place to provide adequate levels of protection to protect the transfer of data from the European Union. You agree that the terms of this Privacy Policy and the Terms of Use will apply and you consent to the transmission and processing of your personal information in any jurisdiction. 
 
-Do Not Track (DNT): Because there is currently no industry or legal standard for recognizing or honoring DNT, we do not currently respond to DNT signals.
+Do Not Track (DNT): Because there is currently no industry or legal standard for recognizing or honoring DNT, we do not currently respond to DNT signals. 
+
 
 ## EU and EEA Users’ Rights
 
-If you are habitually located in the European Union or European Economic Area, you generally have the right to access, rectify, download or erase your information, as well as the right to restrict and object to certain processing of your information. While some of these rights apply generally, certain rights apply only in certain limited circumstances. We briefly describe these rights below:
+If you are habitually located in the European Union or European Economic Area, you generally have the right to access, rectify, download or erase your information, as well as the right to restrict and object to certain processing of your information. While some of these rights apply generally, certain rights apply only in certain limited circumstances. We briefly describe these rights below: 
 
-You have the right to access your personal data and, if necessary, have it amended, deleted or restricted. In certain instances, you may have the right to the portability of your data. You can also ask us to not send marketing communications and not to use your personal data when we carry out profiling for direct marketing purposes. You can opt out of receiving e-mail newsletters and other marketing communications by following the opt-out instructions provided to you in those e-mails. Transactional account messages will be unaffected even if you opt out from marketing communications.
+You have the right to access your personal data and, if necessary, have it amended, deleted or restricted. In certain instances, you may have the right to the portability of your data. You can also ask us to not send marketing communications and not to use your personal data when we carry out profiling for direct marketing purposes. You can opt out of receiving e-mail newsletters and other marketing communications by following the opt-out instructions provided to you in those e-mails. Transactional account messages will be unaffected even if you opt out from marketing communications. 
 
 
 ## Questions
 
 Any questions about this Privacy Policy should be addressed to this e-mail address: [contact@roostoo.com](mailto:contact@roostoo.com). 
-
-
