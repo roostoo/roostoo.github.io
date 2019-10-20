@@ -3,5 +3,14 @@ layout: base
 title: Feedback Redirection
 ---
     <script type="text/javascript">
-        window.location.replace("https://roostoo.typeform.com/to/yA3b8j");    
+        var isiDevice = /ipad|iphone/i.test(navigator.userAgent.toLowerCase());
+        var isAndroid = /android/i.test(navigator.userAgent.toLowerCase());
+        if (isiDevice)
+        {
+            window.location.replace("itms-apps://itunes.apple.com/app/id1483561353");
+        } else if (isAndroid) {
+            window.location.replace("https://play.google.com/store/apps/details?id=com.roostoo.roostoo");
+        } else {
+            window.location.replace("https://roostoo.typeform.com/to/yA3b8j");
+        }
     </script>
