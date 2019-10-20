@@ -1,12 +1,10 @@
 company_links:
 - text: About
   link: /about
-- text: Mobile App
-  link: /mobile-app
-- text: Data & API
-  link: /data-and-api
 - text: Careers
   link: /careers
+- text: Download
+  link: /download
 
 legal_links:
 - text: Terms of Service
@@ -17,7 +15,7 @@ legal_links:
 follow_us:
 - text: Telegram
   icon: fab fa-telegram-plane
-  link: http://telegram.roostoo.com
+  link: http://www.roostoo.com/telegram
 - text: Twitter
   icon: fab fa-twitter
   link: https://twitter.com/Roostoo1
