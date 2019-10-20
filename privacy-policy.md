@@ -6,7 +6,7 @@ permalink: /privacy-policy
 
 # Roostoo Privacy Policy
 
-*Version 1.0*
+*Version 1.1*
 
 **Effective Date: Jun 11, 2019**
 
