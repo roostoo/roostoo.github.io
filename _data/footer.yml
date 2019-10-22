@@ -3,8 +3,8 @@ company_links:
   link: /about
 - text: Careers
   link: /careers
-- text: Download
-  link: /download
+# - text: Download
+#   link: /download
 
 legal_links:
 - text: Terms of Service
