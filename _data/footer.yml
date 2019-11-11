@@ -1,10 +1,8 @@
 company_links:
 - text: About
   link: /about
-- text: Mobile App
-  link: /mobile-app
-- text: Data & API
-  link: /data-and-api
+- text: Blog
+  link: https://medium.com/roostoo-crypto-insights  
 - text: Careers
   link: /careers
 
@@ -18,13 +16,13 @@ follow_us:
 - text: Telegram
   icon: fab fa-telegram-plane
   link: http://telegram.roostoo.com
-- text: Twitter
-  icon: fab fa-twitter
-  link: https://twitter.com/Roostoo1
-- text: LinkedIn
-  icon: fab fa-linkedin-in
-  link: https://www.linkedin.com/company/19179313/admin/
-- text: GitHub
-  icon: fab fa-github
-  link: https://github.com/roostoo
+# - text: Twitter
+#   icon: fab fa-twitter
+#   link: https://twitter.com/Roostoo1
+# - text: LinkedIn
+#   icon: fab fa-linkedin-in
+#   link: https://www.linkedin.com/company/19179313/admin/
+- text: Instagram
+  icon: fab fa-instagram
+  link: https://www.instagram.com/roostoo_crypto/
 

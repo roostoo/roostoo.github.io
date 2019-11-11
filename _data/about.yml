@@ -1,13 +1,12 @@
 slogan: To spread insightful information about the cryptocurrency markets
 
 info:
-  - title: About Roostoo
-    description: Roostoo provides real-time blockchain and cryptocurrency data insights. Our mobile application offers users intuitive, convenient and actionable information for free. 
-  - title: Solving Market Pain Points
-    description: |
-      The cryptocurrency market lacks transparent, practical and unified information for retail investors. 
-
-      Everyone shall have convenient access to useful information metrics. Therefore, we are offering a single source platform that aggregates real-time computable data for the public. 
+  - title: Trading Sandbox
+    description: Roostoo is a mock cryptocurrency trading mobile app that aims to provide a protected sandbox for curious people to practice and learn about the cryptocurrency market.
+  - title: Tokenized World Gateway
+    description: The rationale behind the product is that the crypto market is still risky and volatile. For people who are inexperienced with cryptocurrencies, Roostoo is a fun gateway to enter into the tokenized world without any risk.
+  - title: For Young Generation
+    description: Founded by a group of enthusiasts from Blockchain@USC student club, Roostoo is working to spread cryptocurrency interest to the young generation who will be future digital asset users.
 
 customers:
   - name: Retail Investors
