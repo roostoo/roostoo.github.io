@@ -3,15 +3,10 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <style>
         * {
             box-sizing: border-box;
         }
-
-        /* body {
-            font-family: "Lato", sans-serif;
-        } */
 
         /* Style the tab */
         .tab {
@@ -38,7 +33,7 @@
             cursor: pointer;
             transition: 0.3s;
             /* font-size: 1.5em; */
-            margin: 1em;
+            margin: 1em 0 1em 0;
         }
 
         /* Change background color of buttons on hover */
@@ -79,12 +74,6 @@
             100% {
                 opacity: 1;
             }
-        }
-
-        .carousel-selection {
-            /* display: table-cell; */
-            background-color: #FEDB29;
-            /* vertical-align: middle; */
         }
 
         .carousel-selection img {
@@ -132,12 +121,11 @@
 </head>
 
 <body>
-    <!-- <h2>Vertical Tabs</h2>
-    <p>Click on the buttons inside the tabbed menu:</p> -->
+
 
 
     <div class="carousel-selection columns is-vcentered is-centered">
-        <div class="tab column is-2 is-offset-1 is-hidden-mobile">
+        <div class="tab column is-2 is-hidden-mobile">
             <button class="tablinks is-size-4" onclick="changeTab(event, 'Learn')" id="defaultOpen">Learn</button>
             <button class="tablinks is-size-4" onclick="changeTab(event, 'Play')">Play</button>
             <button class="tablinks is-size-4" onclick="changeTab(event, 'Manage')">Manage</button>
@@ -154,9 +142,8 @@
                     </div>
                 </div>
                 <div class="column is-6 is-offset-1 is-10-mobile is-offset-1-mobile">
-                    <h2 class="title is-2 has-text-black">Create your virtual portfolio easily.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque iacul is rhoncus.
-                        Maecenas sagittis turpis lacus, vel scelerisque nisl feugiat nec. </p>
+                    <h2 class="title is-3 has-text-black">Create your virtual portfolio easily.</h2>
+                    <p>Learn about different cryptocurrencies and the basic functionality of investing and trading. </p>
                 </div>
             </div>
         </div>
@@ -172,9 +159,8 @@
                     </div>
                 </div>
                 <div class="column is-6 is-offset-1 is-10-mobile is-offset-1-mobile">
-                    <h2 class="title is-2 has-text-black">Play</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque iaculis rhoncus.
-                        Maecenas sagittis turpis lacus, vel scelerisque nisl feugiat nec. </p>
+                    <h2 class="title is-3 has-text-black">Play</h2>
+                    <p>Simulate real-time market prices and play with your friends to see who makes better trades. </p>
                 </div>
             </div>
         </div>
@@ -190,9 +176,8 @@
                     </div>
                 </div>
                 <div class="column is-6 is-offset-1 is-10-mobile is-offset-1-mobile">
-                    <h2 class="title is-2 has-text-black">Manage</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque iaculis rhoncus.
-                        Maecenas sagittis turpis lacus, vel scelerisque nisl feugiat nec. </p>
+                    <h2 class="title is-3 has-text-black">Manage</h2>
+                    <p>Create your own virtual portfolio and test investing strategies live. </p>
                 </div>
             </div>
         </div>
