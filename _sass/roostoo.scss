@@ -38,8 +38,42 @@ footer {
   }
 }
 
+.content-block {
+  position: relative;
+}
+
+#main-banner {
+  // height: 650px;
+  max-height: 650px;
+  display: block;
+  // overflow: hidden;
+}
+
+#banner-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;  
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+}
+
 .badge-app-store {
   background-image: url(/assets/img/coming-soon-on-app-store.svg);
+}
+
+#main-banner .gradient {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,0.7);
 }
 
 .input-box {
