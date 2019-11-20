@@ -5,11 +5,11 @@
                 <h1 class="is-uppercase has-text-weight-bold">Company</h1>
                 <ul>
                     {% for item in site.data.footer.company_links %}
-                        <li>
-                            <a href="{{ item.link }}">{{ item.text }}</a>
-                        </li>
+                    <li>
+                        <a href="{{ item.link }}">{{ item.text }}</a>
+                    </li>
                     {% endfor %}
-                </ul>    
+                </ul>
             </div>
 
             <div class="column is-one-quarter has-text-centered-mobile">
@@ -28,23 +28,23 @@
                 <ul>
                     {% for item in site.data.footer.follow_us %}
                     <li class="is-inline m-r-md">
-                        <a href="{{ item.link }}"><i class="{{ item.icon }}"></i></a>
-                    </li> 
+                        <a href="{{ item.link }}" target="_blank"><i class="{{ item.icon }}"></i></a>
+                    </li>
                     {% endfor %}
                 </ul>
 
                 <section class="m-t-lg">
-                <h1 class="is-uppercase has-text-weight-bold">Download</h1>
-                <div class="columns">
+                    <h1 class="is-uppercase has-text-weight-bold">Download</h1>
+                    <div class="columns">
                         <a
                             href='https://play.google.com/store/apps/details?id=com.roostoo.roostoo&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
                                 alt='Get it on Google Play'
-                                src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' 
-                                style="max-height:6em;margin-left:-2%;margin-right:-2%"/></a>
+                                src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'
+                                style="max-height:5em;margin-left:-2%;margin-right:-2%" /></a>
                     </div>
-                </div>
-                </section>
             </div>
+            </section>
         </div>
+    </div>
     </div>
 </footer>

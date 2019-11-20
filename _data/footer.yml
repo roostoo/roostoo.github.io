@@ -1,6 +1,8 @@
 company_links:
 - text: About
   link: /about
+- text: Blog
+  link: https://medium.com/roostoo-crypto-insights  
 - text: Careers
   link: /careers
 # - text: Download
@@ -15,14 +17,14 @@ legal_links:
 follow_us:
 - text: Telegram
   icon: fab fa-telegram-plane
-  link: http://www.roostoo.com/telegram
-- text: Twitter
-  icon: fab fa-twitter
-  link: https://twitter.com/Roostoo1
-- text: LinkedIn
-  icon: fab fa-linkedin-in
-  link: https://www.linkedin.com/company/19179313/admin/
-- text: GitHub
-  icon: fab fa-github
-  link: https://github.com/roostoo
+  link: http://telegram.roostoo.com
+# - text: Twitter
+#   icon: fab fa-twitter
+#   link: https://twitter.com/Roostoo1
+# - text: LinkedIn
+#   icon: fab fa-linkedin-in
+#   link: https://www.linkedin.com/company/19179313/admin/
+- text: Instagram
+  icon: fab fa-instagram
+  link: https://www.instagram.com/roostoo_crypto/
 

@@ -14,11 +14,11 @@
 }
 
 .has-small-elevation {
-  box-shadow: 0 3px 6px rgba(0,0,0,0.02), 0 3px 6px rgba(0,0,0,0.02);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.02), 0 3px 6px rgba(0, 0, 0, 0.02);
 }
 
 .has-mid-elevation {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.02), 0 10px 10px rgba(0,0,0,0.02);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.02), 0 10px 10px rgba(0, 0, 0, 0.02);
 }
 
 .has-image-center {
@@ -38,10 +38,70 @@ footer {
   }
 }
 
-#demo {
-  padding-bottom: 64px;
-  padding-right: 64px;
-  padding-left: 64px;
-  margin-left: -64px;
+.content-block {
+  position: relative;
 }
 
+#main-banner {
+  // height: 650px;
+  max-height: 650px;
+  display: block;
+  // overflow: hidden;
+}
+
+#banner-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;  
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+}
+
+.badge-app-store {
+  background-image: url(/assets/img/coming-soon-on-app-store.svg);
+}
+
+#main-banner .gradient {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,0.7);
+}
+
+.input-box {
+  max-width: 100%;
+  width: 100%;
+  display: inline-flex;
+  font-size: 1rem;
+  height: 2.25em;
+  justify-content: flex-start;
+  line-height: 1.5;
+  padding-bottom: calc(2em - 1px);
+  padding-left: calc(0.875em - 1px);
+  padding-right: calc(0.875em - 1px);
+  padding-top: calc(2em - 1px);
+  position: relative;
+  border-radius: 8px;
+  background: $color_input_bg;
+  border: 0px;
+}
+
+.button.action-button {
+  font-weight: bold;
+  color: $color_accent;
+  background: $color_primary;
+  border-width: 0;
+}
+
+.button.action-button.full-width {
+  max-width: 100%;
+  width: 100%;
+}

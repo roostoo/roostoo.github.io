@@ -2,81 +2,171 @@
 layout: base
 ---
 
-<style>
-    #home-corner-background {
-        background-image: url(/assets/img/bg-corner-2c.svg);
-        float: right;
-        max-width: 40%;
-        max-height: 100%;
-        background-position: top right;
-        background-repeat: no-repeat;
-        background-size: contain;
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin-top: -2vw;
-    }
-</style>
+<section class="section is-medium content-block" id="main-banner">
 
-<div id="home-corner-background">
-    <div class="wrapper">
-        <img src="/assets/img/bg-corner-2c.svg" style="visibility: hidden;" />
+    <div>
+        <!-- <video autoplay muted loop id="banner-video" class="is-hidden-touch">
+            <source src="/assets/video/website-banner-bg-white-overlay-8.mp4" type="video/mp4">
+        </video> -->
+
+        <!-- <div class="gradient"></div> -->
+
+        <div class="container">
+            <h1 class="title is-spaced is-1">
+                Practice Trading. </br>
+                And Learn Cryptocurrency.
+            </h1>
+            <h2 class="subtitle">
+                Real-time <span class="has-text-link">Mock Crypto Trading Simulator</span>
+            </h2>
+
+            <div class="columns m-t-sm">
+                <div class="column is-half">
+
+                    <div class="">
+                        <!-- Begin Mailchimp Signup Form -->
+                        <style type="text/css">
+                            #mc_embed_signup div.mce_inline_error {
+                                background-color: #FF873C;
+                            }
+
+                            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                                                            	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                        </style>
+                        <div id="mc_embed_signup">
+                            <form
+                                action="https://roostoo.us20.list-manage.com/subscribe/post?u=ca8e5144851dfded99ebd5fee&amp;id=ddd10dcdbf"
+                                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                                class="validate" target="_blank" novalidate>
+                                <div id="mc_embed_signup_scroll">
+                                    <input type="email" value="" name="EMAIL" class="input-box required email m-b-sm"
+                                        id="mce-EMAIL" placeholder="name@email.com">
+                                    <div id="mce-responses" class="clear">
+                                        <div class="response" id="mce-error-response" style="display:none"></div>
+                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                    </div>
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input
+                                            type="text" name="b_ca8e5144851dfded99ebd5fee_ddd10dcdbf" tabindex="-1"
+                                            value=""></div>
+                                    <div class="clear"><input type="submit" value="Subscribe for iOS" name="subscribe"
+                                            id="mc-embedded-subscribe" class="button action-button full-width hm-t-md">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <script type='text/javascript'
+                            src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                        <script
+                            type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+                        <!--End mc_embed_signup-->
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns">
+                <!-- <a class="badge-app-store">
+                    <img alt='Coming soon on App Store' src='assets/img/coming-soon-on-app-store.svg'
+                        style="max-height:6em;margin-left:-2%;margin-right:-2%" />
+                </a> -->
+                <a
+                    href='https://play.google.com/store/apps/details?id=com.roostoo.roostoo&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+                    <img alt='Get it on Google Play' src='/assets/img/play_badge.png'
+                        style="max-height:5em;padding:2% 0 2% 12px" />
+                </a>
+
+                <!-- <a ><img
+                        alt='Get it on Google Play' src='/assets/img/coming-soon-on-app-store.png'
+                        style="max-height:5em;padding: 0 0 0 0" /></a> -->
+            </div>
+        </div>
+
     </div>
-</div>
 
-<section class="section is-medium">
+</section>
+
+<section class="hero is-primary content-block">
+
+    <div class="hero-body has-text-black">
+
+        <div class="container">
+            {% include feature-carousel.html %}
+        </div>
+    </div>
+</section>
+
+<section class="section is-medium content-block">
     <div class="container">
-        <h1 class="title is-spaced is-1">
-            Mock Crypto Trading Simulator
-        </h1>
-        <h2 class="subtitle">
-            Practice trading and learn about cryptocurrency  
-        </h2>
 
-        <!-- <a class="button is-primary is-rounded has-text-black">
-            SIGN UP TO GET FREE RELEASED BETA
-        </a> -->
 
         <div class="columns m-t-lg">
-            <div class="column is-one-third">
-            <!-- Begin Mailchimp Signup Form -->
-            <style type="text/css">
-                #mc_embed_signup div.mce_inline_error {
-                    background-color: #FF873C;
-                }
-            
-                /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-            	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-            </style>
-            <div id="mc_embed_signup">
-                <form action="https://roostoo.us20.list-manage.com/subscribe/post?u=ca8e5144851dfded99ebd5fee&amp;id=ddd10dcdbf"
-                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
-                    novalidate>
-                    <div id="mc_embed_signup_scroll">
-                        <div class="mc-field-group control has-icons-left">
-                            <input type="email" value="" name="EMAIL" class="input required email" id="mce-EMAIL" placeholder="Email">
-                            <span class="icon is-left">
-                                <i class="fas fa-envelope"></i>
-                            </span>
-                        </div>
-                        <div id="mce-responses" class="clear">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                name="b_ca8e5144851dfded99ebd5fee_ddd10dcdbf" tabindex="-1" value=""></div>
-                        <div class="clear"><input type="submit" value="SUBSCRIBE AND DOWNLOAD NOW" name="subscribe" id="mc-embedded-subscribe"
-                                class="button is-primary is-rounded has-text-black m-t-md"></div>
+            <div class="column is-half">
+
+                <div class='m-b-lg'>
+                    <h1 class="title is-spaced is-3">
+                        Introducing </br>
+                        Mock Trading Competition
+                    </h1>
+                    <p>
+                        Join our waitlist for future mock crypto trading competitions. Just like Fantasy Football,
+                        invite
+                        and compete
+                        against
+                        your friends. Evaluate your trading performance and hone your astute market sense, all in the
+                        Roostoo app.
+                    </p>
+                </div>
+
+                <div class="">
+                    <!-- Begin Mailchimp Signup Form -->
+                    <style type="text/css">
+                        #mc_embed_signup div.mce_inline_error {
+                            background-color: #FF873C;
+                        }
+
+                        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                                    	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                    </style>
+                    <div id="mc_embed_signup">
+                        <form
+                            action="https://roostoo.us20.list-manage.com/subscribe/post?u=ca8e5144851dfded99ebd5fee&amp;id=ddd10dcdbf"
+                            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                            class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                                <input type="email" value="" name="EMAIL" class="input-box required email m-b-sm"
+                                    id="mce-EMAIL" placeholder="name@email.com">
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                        name="b_ca8e5144851dfded99ebd5fee_ddd10dcdbf" tabindex="-1" value=""></div>
+                                <div class="clear"><input type="submit" value="Join Waitlist" name="subscribe"
+                                        id="mc-embedded-subscribe" class="button action-button full-width hm-t-md">
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                </form>
-            </div>
-            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-            <script
-                type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
-            <!--End mc_embed_signup-->
+                    <script type='text/javascript'
+                        src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                    <script
+                        type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+                    <!--End mc_embed_signup-->
+
+                </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- <section class="section has-background-light">
+    <div class="container">
+        <h1 class="title is-spaced is-3">
+            Our Partners
+            </h1>
+    
+        </h1>
+    </div>
+</section> -->

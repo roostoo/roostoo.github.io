@@ -2,16 +2,11 @@ slogan: About Roostoo
 
 info:
   - title: Trading Sandbox
-    description: |
-      Roostoo is a mock cryptocurrency trading mobile app that aims to provide a protected sandbox for curious people to practice and learn about the cryptocurrency market.
-
+    description: Roostoo is a mock cryptocurrency trading mobile app that aims to provide a protected sandbox for curious people to practice and learn about the cryptocurrency market.
   - title: Tokenized World Gateway
-    description: |
-      The rationale behind the product is that the crypto market is still risky and volatile. For people who are inexperienced with cryptocurrencies, Roostoo is a fun gateway to enter into the tokenized world without any risk.  
-
+    description: The rationale behind the product is that the crypto market is still risky and volatile. For people who are inexperienced with cryptocurrencies, Roostoo is a fun gateway to enter into the tokenized world without any risk.
   - title: For Young Generation
-    description: |
-      Founded by a group of enthusiasts from Blockchain@USC student club, Roostoo is working to spread cryptocurrency interest to the young generation who will be future digital asset users. 
+    description: Founded by a group of enthusiasts from Blockchain@USC student club, Roostoo is working to spread cryptocurrency interest to the young generation who will be future digital asset users.
 
 customers:
   - name: Beginners
