@@ -1,0 +1,17 @@
+---
+layout: base
+title: Download QR Code Redirection
+---
+    <script type="text/javascript">
+        var isiDevice = /ipad|iphone/i.test(navigator.userAgent.toLowerCase());
+        var isAndroid = /android/i.test(navigator.userAgent.toLowerCase());
+        if (isiDevice)
+        {
+            // window.location.replace("itms-apps://itunes.apple.com/app/id1483561353");
+            window.location.replace("https://www.roostoo.com/");
+        } else if (isAndroid) {
+            window.location.replace("https://play.google.com/store/apps/details?id=com.roostoo.roostoo");
+        } else {
+            window.location.replace("https://www.roostoo.com/");
+        }
+    </script>
