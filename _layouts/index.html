@@ -5,20 +5,31 @@ layout: base
 <section class="section is-medium content-block" id="main-banner">
 
     <div>
-        <!-- <video autoplay muted loop id="banner-video" class="is-hidden-touch">
+        <video autoplay muted loop id="banner-video" class="is-hidden-touch">
             <source src="/assets/video/website-banner-bg-white-overlay-8.mp4" type="video/mp4">
-        </video> -->
+        </video>
 
         <!-- <div class="gradient"></div> -->
 
         <div class="container">
+
             <h1 class="title is-spaced is-1">
                 Free Crypto </br>
                 Simulator Exchange.
             </h1>
             <h2 class="subtitle">
-                Real-time <span class="has-text-link">Mock Crypto Trading Simulator</span>
+                Real-time Mock Crypto Trading Simulator
             </h2>
+
+            <div >
+                <a id="watchVideoBtn" style="font-weight: 900; font-size: 1em;">
+                    <i class="material-icons" style="vertical-align: middle;" >
+                        play_circle_outline
+                    </i>
+                    Watch Video
+                </a>
+            </div>
+
 
             <div class="columns m-t-sm">
                 <div class="column is-half">
@@ -63,6 +74,12 @@ layout: base
 
                     </div>
                 </div>
+
+                <!-- <div class="column is-half">
+                    <video autoplay muted loop id="video" class="is-hidden-touch">
+                        <source src="/assets/video/website-banner-bg-white-overlay-8.mp4" type="video/mp4">
+                    </video>
+                </div> -->
             </div>
 
             <div class="columns">
@@ -170,3 +187,45 @@ layout: base
         </h1>
     </div>
 </section> -->
+
+
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+                src="https://player.vimeo.com/video/377132292?color=ff9933&title=0&byline=0"
+                style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
+
+</div>
+
+<script>
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("watchVideoBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on the button, open the modal
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>

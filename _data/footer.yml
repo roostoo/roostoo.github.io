@@ -2,7 +2,7 @@ company_links:
 - text: About
   link: /about
 - text: Blog
-  link: https://medium.com/roostoo-crypto-insights  
+  link: https://medium.com/roostoo
 - text: Careers
   link: /careers
 # - text: Download
@@ -27,4 +27,7 @@ follow_us:
 - text: Instagram
   icon: fab fa-instagram
   link: https://www.instagram.com/roostoo_crypto/
+- text: Facebook
+  icon: fab fa-facebook
+  link: https://www.facebook.com/RoostooInsights/
 
