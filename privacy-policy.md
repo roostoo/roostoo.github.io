@@ -6,9 +6,9 @@ permalink: /privacy-policy
 
 # Roostoo Privacy Policy
 
-*Version 1.1*
+*Version 1.3*
 
-**Effective Date: Jun 11, 2019**
+**Effective Date: Jan 2, 2020**
 
 
 Roostoo (“**we**” or “**us**” or “**our**”) respects the privacy of its users (“**user**” or “**you**”) that use our mobile “Roostoo” application (“**App**”), www.roostoo.com (“**Website**”) and other digital services (including “**App**”, “**Website**” collectively, the “**Services**”) offered by “**Roostoo**”. 
@@ -19,7 +19,10 @@ Please note that your access to and use of our App, or Website, or Services, is 
 
 ## Information You Provide to Us
 
-Roostoo collects (a) the e-mail addresses of those who communicate with us via e-mail; (b) information related to your use of the App and Website. Usage Data including in-app user activities, 1IP address, Cookies, geographic location, unique device identifiers for advertising (Google Advertiser ID or IDFA, for example) and date and time of your request; (c) aggregate information concerning what pages users access or visit; (d) information volunteered by the user (such as survey information and/or site registrations); (e) information regarding the type of mobile device or tablet (device ID, model and manufacturer, operating system, version) you are utilising to access our App, Website, and Services; (f) information such as your name, email address and password creation, when you participate in any interactive features of the Services (such as API keys, user accounts, configuration settings, and user referrals); (g) any other information that you share with Roostoo. 
+The types of personal information we collect depend on the product or service you (“You”) receive from us.
+This information may include, but is not limited to:
+
+Roostoo collects (a) the e-mail addresses of those who communicate with us via e-mail; (b) information related to your use of the App and Website. Usage Data including your personalized virtual portfolio, virtual trade activities, 1IP address, Cookies, geographic location, unique device identifiers for advertising (Google Advertiser ID or IDFA, for example) and date and time of your request; (c) aggregate information concerning app usage patterns and what pages users access or visit; (d) information volunteered by the user (such as survey information and/or site registrations); (e) information regarding the type of mobile device or tablet (device ID, model and manufacturer, operating system, version) you are utilising to access our App, Website, and Services; (f) information such as your name, email address and password creation, when you participate in any interactive features of the Services (such as API keys, user accounts, configuration settings, and user referrals); (g) any other information that you share with Roostoo. 
 
 ## Your Consent to Our Use of Information
 
@@ -34,6 +37,7 @@ Roostoo uses collected information for the following purposes:
 
 We do not share or sell your personal data to other organizations for commercial purposes, except to provide products or services you’ve requested, when we have your permission, or under the following circumstances: 
 
+* We may share your information with the third-party partners that host mock trading competitions on the Roostoo App, if you are a direct participant of the partner’s mock trading competitions.  
 * We may share your information when in connection with, or during negotiations of, any merger, sale of Roostoo assets, financing or acquisition of all or a portion of our business by another company. Between and among Roostoo and our current and future parents, affiliates, subsidiaries and other companies under common control and ownership. 
 * We may allow third-parties (vendors, consultants and other service providers who need access to such information to carry out work on our behalf) to provide analytics services and serve advertisements on our behalf across the internet and in applications. This information may be used by Roostoo and others to, among other things, analyze and track data, determine the popularity of certain content, deliver advertising and content targeted to your interests on our Services and other websites and better understand your online activity. For more information about interest-based ads, or to opt out of having your web browsing information used for behavioral advertising purposes, please visit www.aboutads.info/choices.
 * We may aggregate, anonymize, and publish data for statistical and research purposes only. For example, we may compile and share information related to the popularity of certain products tracked by users. In any such instance, the information will not be able to be traced back to any individual.
@@ -42,15 +46,14 @@ We do not share or sell your personal data to other organizations for commercial
 
 ## Security
 
-Roostoo will take reasonable technical and organisational precautions to prevent the loss, misuse or alteration of your personal information. 
+Roostoo will take reasonable technical and organisational precautions to prevent the loss, misuse or alteration of your personal information.
 
 Roostoo will store some the personal information you provide on its secure servers. 
-
-Information that Roostoo collects may be stored and processed in and transferred between any of the countries in which Roostoo operates to enable the use of the information in accordance with this privacy policy. 
+Information that Roostoo collects may be stored and processed in and transferred between any of the countries in which Roostoo operates to enable the use of the information in accordance with this privacy policy.
 
 We take precautions to ensure the security of your personal information. However, we cannot guarantee that hackers or unauthorized personnel may gain access to your personal information despite our efforts. You should note that in using the Roostoo Services, your information will travel over the Internet and through third-party infrastructures and mobile networks, which are not under our control. 
 
-Roostoo is not responsible for the privacy policies or practices of any third party.We cannot protect, nor does this Privacy Policy apply to, any information that you transmit to other users. You should never transmit personal or identifying information to other users. 
+Roostoo is not responsible for the privacy policies or practices of any third party.We cannot protect, nor does this Privacy Policy apply to, any information that you transmit to other users. You should never transmit personal or identifying information to other users.
 
 
 ## Data Storage
@@ -65,18 +68,21 @@ We do not intentionally gather Personal Data from visitors who are under the age
 
 ## Transfer and Processing of Personal Information
 
-Roostoo is located in Hong Kong. and the terms of this Privacy Policy and the related Terms of Use shall be governed by and construed in accordance with the laws of Hong Kong, without regard to any principles of conflicts of law. If you are not located in Hong Kong, by accessing the App, Website and Services and providing personal information through it, you agree and acknowledge and consent to the collection, maintenance, processing, and transfer of such information in and to Hong Kong and other countries and territories. These other jurisdictions may have different privacy laws from your home jurisdiction and provide different levels of protection of personal information. Roostoo does have processes and procedures in place to provide adequate levels of protection to protect the transfer of data from the European Union. You agree that the terms of this Privacy Policy and the Terms of Use will apply and you consent to the transmission and processing of your personal information in any jurisdiction. 
+Roostoo is located in Hong Kong and the terms of this Privacy Policy and the related Terms of Use shall be governed by and construed in accordance with the laws of Hong Kong, without regard to any principles of conflicts of law. If you are not located in Hong Kong, by accessing the App, Website and Services and providing personal information through it, you agree and acknowledge and consent to the collection, maintenance, processing, and transfer of such information in and to Hong Kong and other countries and territories. These other jurisdictions may have different privacy laws from your home jurisdiction and provide different levels of protection of personal information. Roostoo does have processes and procedures in place to provide adequate levels of protection to protect the transfer of data from the European Union. You agree that the terms of this Privacy Policy and the Terms of Use will apply and you consent to the transmission and processing of your personal information in any jurisdiction.
 
-Do Not Track (DNT): Because there is currently no industry or legal standard for recognizing or honoring DNT, we do not currently respond to DNT signals. 
+Information that Roostoo collects may be stored and processed in and transferred between any of the countries in which Roostoo operates to enable the use of the information in accordance with this privacy policy. In addition, personal information that you submit for publication on the website may be published on the internet and may be available around the world. You agree to such cross-border transfers of personal information.
 
+Do Not Track (DNT): Because there is currently no industry or legal standard for recognizing or honoring DNT, we do not currently respond to DNT signals.
 
 ## EU and EEA Users’ Rights
 
-If you are habitually located in the European Union or European Economic Area, you generally have the right to access, rectify, download or erase your information, as well as the right to restrict and object to certain processing of your information. While some of these rights apply generally, certain rights apply only in certain limited circumstances. We briefly describe these rights below: 
+If you are habitually located in the European Union or European Economic Area, you generally have the right to access, rectify, download or erase your information, as well as the right to restrict and object to certain processing of your information. While some of these rights apply generally, certain rights apply only in certain limited circumstances. We briefly describe these rights below:
 
-You have the right to access your personal data and, if necessary, have it amended, deleted or restricted. In certain instances, you may have the right to the portability of your data. You can also ask us to not send marketing communications and not to use your personal data when we carry out profiling for direct marketing purposes. You can opt out of receiving e-mail newsletters and other marketing communications by following the opt-out instructions provided to you in those e-mails. Transactional account messages will be unaffected even if you opt out from marketing communications. 
+You have the right to access your personal data and, if necessary, have it amended, deleted or restricted. In certain instances, you may have the right to the portability of your data. You can also ask us to not send marketing communications and not to use your personal data when we carry out profiling for direct marketing purposes. You can opt out of receiving e-mail newsletters and other marketing communications by following the opt-out instructions provided to you in those e-mails. Transactional account messages will be unaffected even if you opt out from marketing communications.
 
 
 ## Questions
 
 Any questions about this Privacy Policy should be addressed to this e-mail address: [contact@roostoo.com](mailto:contact@roostoo.com). 
+
+
