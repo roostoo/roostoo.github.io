@@ -127,23 +127,24 @@
     <div class="carousel-selection columns is-vcentered is-centered">
         <div class="tab column is-2 is-hidden-mobile">
             <button class="tablinks is-size-4" onclick="changeTab(event, 'Learn')" id="defaultOpen">Learn</button>
-            <button class="tablinks is-size-4" onclick="changeTab(event, 'Play')">Play</button>
-            <button class="tablinks is-size-4" onclick="changeTab(event, 'Manage')">Manage</button>
+            <button class="tablinks is-size-4" onclick="changeTab(event, 'Play')">Manage</button>
+            <button class="tablinks is-size-4" onclick="changeTab(event, 'Manage')">Compete</button>
         </div>
 
         <div id="Learn" class="tabcontent fade-in column is-9">
             <div class="columns is-vcentered is-centered">
                 <div class="column is-4 has-text-centered is-6-mobile is-offset-3-mobile">
-                    <img src="/assets/img/features/portfolio@2x.png" />
+                    <img src="/assets/img/features/phone-learn.png" />
                     <div class="circle-group is-hidden-tablet">
                         <div class="circle-selected" id="circle-1" onclick="changeTab(event, 'Learn')"></div>
-                        <div class="circle" id="circle-2" onclick="changeTab(event, 'Play')"></div>
-                        <div class="circle" id="circle-3" onclick="changeTab(event, 'Manage')"></div>
+                        <div class="circle" id="circle-2" onclick="changeTab(event, 'Manage')"></div>
+                        <div class="circle" id="circle-3" onclick="changeTab(event, 'Compete')"></div>
                     </div>
                 </div>
                 <div class="column is-6 is-offset-1 is-10-mobile is-offset-1-mobile">
-                    <h2 class="title is-3 has-text-black">Create your virtual portfolio easily.</h2>
-                    <p>Learn about different cryptocurrencies and the basic functionality of investing and trading. </p>
+                    <h2 class="title is-3 has-text-black">Learn about the future of digital finance. </h2>
+                    <p>Roostoo provides a real-time, risk-free trading simulator so you can brave the crypto learning curve at zero cost. Hone
+                    your skills and get comfortable with crypto trading and investing.</p>
                 </div>
             </div>
         </div>
@@ -151,16 +152,17 @@
         <div id="Play" class="tabcontent fade-in column is-9">
             <div class="columns is-vcentered is-centered">
                 <div class="column is-4 has-text-centered is-6-mobile is-offset-3-mobile">
-                    <img src="/assets/img/features/mock-trading@2x.png" />
+                    <img src="/assets/img/features/phone-manage.png" />
                     <div class="circle-group is-hidden-tablet">
                         <div class="circle" id="circle-1" onclick="changeTab(event, 'Learn')"></div>
-                        <div class="circle-selected" id="circle-2" onclick="changeTab(event, 'Play')"></div>
-                        <div class="circle" id="circle-3" onclick="changeTab(event, 'Manage')"></div>
+                        <div class="circle-selected" id="circle-2" onclick="changeTab(event, 'Manage')"></div>
+                        <div class="circle" id="circle-3" onclick="changeTab(event, 'Compete')"></div>
                     </div>
                 </div>
                 <div class="column is-6 is-offset-1 is-10-mobile is-offset-1-mobile">
-                    <h2 class="title is-3 has-text-black">Play</h2>
-                    <p>Simulate real-time market prices and play with your friends to see who makes better trades. </p>
+                    <h2 class="title is-3 has-text-black">Manage your virtual portfolios. </h2>
+                    <p>You decide how to utilize mock $50000 in paper money! Buy, sell, trade, and profit. Delve into the crypto world with
+                    Roostoo to become a savvy investor.</p>
                 </div>
             </div>
         </div>
@@ -168,16 +170,17 @@
         <div id="Manage" class="tabcontent fade-in column is-9">
             <div class="columns is-vcentered is-centered">
                 <div class="column is-4 has-text-centered is-6-mobile is-offset-3-mobile">
-                    <img src="/assets/img/features/order-history@2x.png" />
+                    <img src="/assets/img/features/phone-compete.png" />
                     <div class="circle-group is-hidden-tablet">
                         <div class="circle" id="circle-1" onclick="changeTab(event, 'Learn')"></div>
-                        <div class="circle" id="circle-2" onclick="changeTab(event, 'Play')"></div>
-                        <div class="circle-selected" id="circle-3" onclick="changeTab(event, 'Manage')"></div>
+                        <div class="circle" id="circle-2" onclick="changeTab(event, 'Manage')"></div>
+                        <div class="circle-selected" id="circle-3" onclick="changeTab(event, 'Compete')"></div>
                     </div>
                 </div>
                 <div class="column is-6 is-offset-1 is-10-mobile is-offset-1-mobile">
-                    <h2 class="title is-3 has-text-black">Manage</h2>
-                    <p>Create your own virtual portfolio and test investing strategies live. </p>
+                    <h2 class="title is-3 has-text-black">Compete with friends. </h2>
+                    <p>Watch out for competitions hosted by your university clubs and our industry partners. See if you can snag first place
+                    with your investing acumen!</p>
                 </div>
             </div>
         </div>
@@ -198,9 +201,9 @@
             }
             if (tabName == "Learn") {
                 index = 0;
-            } else if (tabName == "Play") {
-                index = 1;
             } else if (tabName == "Manage") {
+                index = 1;
+            } else if (tabName == "Compete") {
                 index = 2;
             }
             document.getElementById(tabName).style.display = "block";
