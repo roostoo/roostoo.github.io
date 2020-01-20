@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Roostoo Terms of Service
+title: Terms of Service
 permalink: /terms-of-service
+meta-desc: These Terms of Use (“Terms”) apply to the mobile “Roostoo” application (“App”), www.roostoo.com (“Website”) and other digital services offered by “Roostoo” (including “App”, “Website” collectively, the “Services”).
 ---
 # Roostoo Terms of Service
 

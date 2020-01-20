@@ -1,7 +1,8 @@
 ---
 layout: careers
-title: Careers
+title: Careers – Join Us
 permalink: /careers
+meta-desc: Roostoo is an emerging startup with a university root. We are looking for high-caliber individuals who are excited about creating a better future to join us.
 ---
 
 Roostoo is an emerging startup based in USC. We are looking for high-caliber individuals who are excited about creating a better future with the following qualities to join us:
