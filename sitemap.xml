@@ -7,23 +7,23 @@
     <priority>1.0</priority>
       <image:image>
         <image:loc>https://www.roostoo.com/assets/img/roostoo_brand.svg</image:loc>
-        <image:title></image:title>
+        <image:title>Roostoo Brand Logo</image:title>
       </image:image>
       <image:image>
         <image:loc>https://www.roostoo.com/assets/img/play_badge.png</image:loc>
         <image:title>Get it on Google Play</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.roostoo.com/assets/img/features/portfolio@2x.png</image:loc>
-        <image:title></image:title>
+        <image:loc>https://www.roostoo.com/assets/img/features/phone-compete.png</image:loc>
+        <image:title>Roostoo Mock Trading App Competition Screenshot</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.roostoo.com/assets/img/features/mock-trading@2x.png</image:loc>
-        <image:title></image:title>
+        <image:loc>https://www.roostoo.com/assets/img/features/phone-learn.png</image:loc>
+        <image:title>Roostoo Mock Trading App Trade Screenshot</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.roostoo.com/assets/img/features/order-history@2x.png</image:loc>
-        <image:title></image:title>
+        <image:loc>https://www.roostoo.com/assets/img/features/phone-manage.png</image:loc>
+        <image:title>Roostoo Mock Trading App Portfolio Screenshot</image:title>
       </image:image>
   </url>
   <url>

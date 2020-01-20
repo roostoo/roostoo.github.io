@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Privacy Plicy
+title: Privacy Policy
 permalink: /privacy-policy
 meta-desc: Roostoo respects the privacy of its users that use our mobile “Roostoo” application (“App”), www.roostoo.com (“Website”) and other digital services (including “App”, “Website” collectively, the “Services”) offered by “Roostoo”.
 keywords: privacy policy
