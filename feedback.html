@@ -5,13 +5,14 @@ title: Feedback Redirection
     <script type="text/javascript">
         var isiDevice = /ipad|iphone/i.test(navigator.userAgent.toLowerCase());
         var isAndroid = /android/i.test(navigator.userAgent.toLowerCase());
+
+        var formLink = "https://forms.gle/2kWMNZoiWNKfiDic7";
         if (isiDevice)
         {
-            // window.location.replace("itms-apps://itunes.apple.com/app/id1483561353");
-            window.location.replace("https://roostoo.typeform.com/to/yA3b8j");
+            window.location.replace(formLink);
         } else if (isAndroid) {
-            window.location.replace("https://play.google.com/store/apps/details?id=com.roostoo.roostoo");
+            window.location.replace(formLink);
         } else {
-            window.location.replace("https://roostoo.typeform.com/to/yA3b8j");
+            window.location.replace(formLink);
         }
     </script>
