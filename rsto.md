@@ -104,7 +104,7 @@ If you are skillful and make it to the top 10 on the leaderboard, you enjoy extr
 
     - For the next 50 days of usage, users will receive 3 RSTO/day (150 RSTO available). 
 
-    - From that onward, users will receive 1 RSTO/login.  
+    - From that onward, users will receive 1 RSTO/day.  
 
 ## Conclusion
 

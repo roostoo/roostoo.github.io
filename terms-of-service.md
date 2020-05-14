@@ -5,15 +5,14 @@ permalink: /terms-of-service
 meta-desc: These Terms of Use (“Terms”) apply to the mobile “Roostoo” application (“App”), www.roostoo.com (“Website”) and other digital services offered by “Roostoo” (including “App”, “Website” collectively, the “Services”).
 keywords: terms of service, terms, agreement
 ---
+
 # Roostoo Terms of Service
 
-*Version 1.3*
+*Version 1.4*
 
-**Effective Date: Jan 2, 2020**
+**Effective Date: May 2, 2020**
 
-These Terms of Use (**“Terms”**) apply to the mobile “Roostoo” application (**“App”**), www.roostoo.com (**“Website”**) and other digital services offered by **“Roostoo”** (collectively, the **“Services”**). The terms **"we"**, **"us"** and **"our"** also refer to Roostoo. The term **“you”**, or **“user”** refers to the person using any service associated with Roostoo. 
-
-These are the general terms and conditions of Roostoo for use of the Services, which include Roostoo mobile app in both Android and iOS versions, and the Roostoo Website. 
+These Terms of Use (“Terms”) apply to the mobile “Roostoo” application (“App”), www.roostoo.com (“Website”) and other digital services offered by “Roostoo” (collectively, the “Services”). The App include the Roostoo mobile app in both Android and iOS versions. The terms “we”, “us” and “our” also refer to Roostoo. The term “you”, or “user” refers to the person using any services associated with Roostoo. When you use our Services you agree to all of these terms. Your use of the Services is also subject to our Privacy Policy. 
 
 ## Overview
 
@@ -24,19 +23,18 @@ Roostoo is established for users who are eager to learn and further familiarize 
 **You fully acknowledge and understand that:**
 1.	**The Services do not constitute any actual trading of cryptocurrencies.**
 2.	**Any amount of displayed virtual currency on the App and Website does not consist of actual dollar of value.** 
-3.	Roostoo is not a registered exchange, broker, analyst, investment advisor or any kind of financial expert or advisor. All the information provided is purely for informational purposes. All information contained herein should be independently verified and confirmed. We do not accept any liability for any loss or damage whatsoever caused in reliance upon such information or services. 
-4.	Roostoo is not responsible if information made available on The Services is not accurate, complete or current. The material on this site is provided for general information only and should not be relied upon or used as the sole basis for making decisions without consulting primary, more accurate, more complete or more timely sources of information. Any reliance on the material on The Services is at your own risk.
+3.	Roostoo is not a registered exchange, broker, analyst, investment advisor or any kind of financial expert or advisor. All information provided is purely for informational purposes. All information contained herein should be independently verified and confirmed. We are not liable for any loss or damages whatsoever caused in reliance upon such information or services.
+4.	Roostoo is not responsible if information made available on The Services is not accurate, complete or current. The material on this site is provided for general information only and should not be relied upon or used as the sole basis for making decisions without consulting primary, more accurate, more complete or more timely information sources. Any reliance on the material on The Services is at your own risk.
 5.	By downloading our App, accessing or using our Services (or any of our Site Services), listing your content on our Website, signing up for any of our services or products in any way, you hereby accept these Terms of Use, our Privacy Policy, as well as any other terms of service (including rules and guidelines) that may be implemented from time to time in relation to our Services (collectively, the “Agreement”).
 
-Roostoo reserves the right at its sole discretion to amend any provision of the Agreement (including this Terms of Use) at any time in our sole discretion without any prior notice to you, and you agree that it is your responsibility to check for the updated terms of the Agreement on our Website regularly. In any event, by continuing to use any aspect of our Website and/or any of our Services you will be deemed to have accepted all amendments to the Agreement as may be implemented by Roostoo from time to time. If you do not wish to be bound by the Agreement, do not use any aspect of the Site or Site Services, cease all access to and use of our App, our Website, our Services, our products and services immediately.
-
+Roostoo reserves the right at its sole discretion to amend any provision of the Agreement (including this Terms of Use) at any time without any prior notice to you, and you agree that it is your responsibility to check for the updated terms of the Agreement on our Website regularly. In any event, by continuing to use any aspect of our Website and/or any of our Services you will be deemed to have accepted all amendments to the Agreement as may be implemented by Roostoo from time to time. If you do not wish to be bound by the Agreement, do not use any aspect of the Site or Site Services, cease all access to and use of our App, our Website, our Services, our products and services immediately.
 
 ## No Investment Advice
 
 **You acknowledge that:**
 1. 	Roostoo does not recommend any financial product(s);
 2. 	Roostoo does not recommend that any financial product should be bought, sold or held by you; and
-3.	 Nothing on the Services should be construed as an offer, nor the solicitation of an offer, to buy or sell cryptocurrency by Roostoo
+3.	Nothing on the Services should be construed as an offer, nor the solicitation of an offer, to buy or sell cryptocurrency by Roostoo
 4. 	Information which may be referred to on the Services from time to time may not be suitable for you and that you should not make any investment decision without consulting a fully qualified financial advisor.
 
 Roostoo is not a financial advisor. Your use of the Services is at your own risk. To the maximum extent permitted by applicable law, you expressly agree that we are not providing financial advice via the Services.
@@ -44,24 +42,32 @@ Roostoo is not a financial advisor. Your use of the Services is at your own risk
 
 ## Mock Trading Competitions
 
-### Description
-
 Mock Trading Competitions is a feature offered by Roostoo. Roostoo also provides the feature functionality for third party Partner Hosts to conduct mock trading competitions on our app and website. 
 
-Partner Host is a third party that hosts its branded mock trading competitions powered by Roostoo’s mobile app and website platform. The purpose of mock trading competitions is to enable partner hosts to engage their respective community in blockchain and cryptocurrency education. 
+Partner Host is a third party that hosts its branded mock trading competitions powered by Roostoo’s mobile app and website platform. The purpose of mock trading competitions is to enable partner hosts to engage their respective community in blockchain and cryptocurrency education. Partner Host may also host mock trading competitions as a sponsor to Roostoo. 
 
 The Partner Host has to agree terms with Roostoo in hosting the competitions. Some examples of Partner Hosts are student organizations, educational institutions, and business entities.  
 
 These competitions are in no way sponsored, endorsed or administered by, or associated with, Apple, Inc. and Google, LLC. Any questions, comments or complaints regarding the competitions should be directed to Roostoo and its affiliated Partner Hosts.  
 
+## Roostoo Game Token (RSTO) 
 
-### Eligibility
+Roostoo Game Token (RSTO) is an innovative design that will become the backbone of the Roostoo ecosystem. Roostoo allows users to pay-in their RSTO to enter mock trading competitions. After each competition ends, RSTO will be distributed back to users according to their ranking on the leaderboard. 
 
-A.	Roostoo General Competition: 
+RSTO merely serves as a game point currency to reward users that perform certain activities on Roostoo. Currently, RSTO has no cash value and does not constitute your property. For more details about RSTO, please click on the RSTO page on the website. 
 
-Each user who signs up an account on Roostoo App or Website is automatically enrolled in Roostoo General Competition as a participant.  
 
-B.	Partner Host Competition: 
+#### Eligibility
+
+A.	Roostoo Training Ground: 
+
+Each user who signs up an account on Roostoo App or Website is automatically enrolled in Roostoo Training Ground to practice and get familiarity with mock trading on the Roostoo App.   
+
+B.	Roostoo Regular Competition: 
+
+Roostoo regular competitions are open for every Roostoo user. Users will need to pay-in their RSTO game tokens to enter any Roostoo regular competition. After each competition ends, RSTO will be distributed back to users according to their ranking on the leaderboard. For the distribution mechanism, please click here. 
+
+C.	Partner Host Competition: 
 
 Roostoo generates an invitation code to the Partner Host. The specific invitation code is distributed only by the Partner Host to make eligible for their targeted participants to enter the relevant competition. Roostoo will not provide any Partner Host invitation code to other general users. 
 
@@ -71,15 +77,13 @@ After the completion of each Partner Host Competition, participants can still ac
 
 It is possible for Partner Hosts to offer prize promotions for their hosted competitions to incentivize participation. In such case, it is the responsibility of the Partner Host to ensure competition framework is legal and compliant to prize promotion laws in jurisdictions where the competition is operated in. Roostoo shall not be liable for any disputes between the participants and the Partner Hosts. 
 
-Roostoo employees, employees of Partner Hosts, and all of their immediate family members and persons living in the same household are not eligible for the Partner Host Competitions.
 
 
-
-### Competition Rules
+#### Competition Rules
 
 **I. Starting Portfolio**
 
-In default, each participant begins with mock $50000 worth of paper money available in virtual portfolio (Note that it is not real USD, there is NO actual financial transaction in the app).
+As a default, each participant begins with mock $50000 worth of paper money available in their virtual portfolio (Note that it is not real USD, there is NO actual financial transaction in the app).
 
 Participants will be able to start trading according to real-time market prices with the default $50000 paper money. 
 
@@ -89,20 +93,20 @@ Participants can enter any number of trades to mock buy and sell cryptocurrencie
 
 To mirror real-life cryptocurrency trading, participants can choose between 2 types of trades when buying or selling a cryptocurrency. 
 
--	Market Order: Refers to executing the trade immediately with the current market price. Each Market Order will charge a virtual commission fee of 0.016%. 
--	Limit Order: Refers to executing the trade at a specified price set by the participant. Each Limit Order will charge a virtual commission fee of 0.012%.	
+-	Market Order: Refers to the execution of the trade immediately with the current market price. Each Market Order will charge a virtual commission fee of 0.016%. 
+-	Limit Order: Refers to the execution of the trade at a specified price set by the participant. Each Limit Order will charge a virtual commission fee of 0.012%.	
 
 **III. Leaderboard**
 								       
 The participants will be ranked according to the overall portfolio return rate during the length of the competition period. 
 
-For example, a participant starts off with $50000 paper money and ends up with $55000 paper money in the portfolio, the portfolio return rate is ($55000 - $50000) / $50000 = 10%.  
+For example, if a participant starts off with $50000 paper money and ends up with $55000 paper money in the portfolio, the portfolio return rate is ($55000 - $50000) / $50000 = 10%.  
 
 Each competition will display internal leaderboard which is updated real-time.
 
 **IV. Competition Duration**
 
-The duration of the Roostoo General Competition is all-time. 
+The duration of Roostoo Regular Competitions is 1-day, 3-day, and 7-day respectively. 
 
 The duration of any Partner Host Competition is decided by the respective Partner Host. Each competition period normally falls within the range of maximum 30 days. 
 
@@ -114,29 +118,29 @@ Winners of each Partner Host Competition will be announced separately by the Par
 
 
 
-### Mock Trading Competition Disclaimers
-1.	Roostoo is a software tool provider for third parties to host mock trading competitions.  
-2.	Roostoo is not a sponsor for any Partner Host contest shall there be any prize promotions. 
-3.	Roostoo does not represent any partner host who conducts the competitions.  
-4. 	Any imagery, external link, content description and other branded material used on the mock trading competition interface are agreed and provided by the Partner Hosts.   
-5. 	Roostoo and Partner Host reserve the right to cancel, terminate, modify or suspend the Mock Trading Competition.
-6. 	Any person acting in bad faith, violating the Roostoo Terms, or abusing any aspect of the Mock Trading Competitions will be disqualified and their account will be removed. 
+#### Mock Trading Competition Disclaimers
 
-By entering the mock trading competitions, you are granting Roostoo and the Partner Hosts permission to publicize your username, your country and your Roostoo usage content for advertising and publicity purposes. 
+1.	Roostoo is a software tool provider for third parties to host mock trading competitions.
+2.	Roostoo is not a sponsor for any Partner Host contest shall there be any prize promotions.
+3.	Roostoo does not represent any Partner Host who conducts the competitions.
+4. 	Any imagery, external link, content description and other branded material used on the mock trading competition interface are agreed and provided by the Partner Hosts.
+5. 	Roostoo and Partner Host reserve the right to cancel, terminate, modify or suspend the Mock Trading Competitions.
+6. 	Any person acting in bad faith, violating the Roostoo Terms, or abusing any aspect of the Mock Trading Competitions will be disqualified at the discretion of Roostoo and the Partner Host, and their account will be removed.
+
+By entering the mock trading competitions, you are granting Roostoo and the Partner Hosts permission to publicize your username, your country and your Roostoo usage content for advertising and publicity purposes.
 
 
 ## Disclaimers and Limitation of Liability
 
-The content on the Services is strictly for informational purposes. Nothing on or in the Services shall constitute or be construed as an offering of any currency or any financial instrument or as investment advice or investment recommendations (such as recommendations as to whether to purchase a currency or instrument) by Roostoo or a recommendation as to an investment strategy by Roostoo. Content on this Services should not be considered as information sufficient upon which to base an investment strategy. No content on the Services is tailored to the specific needs of any individual, entity or group of individuals. Roostoo expresses no opinion as to the future or expected value of any currency, security or other interest. Roostoo does not explicitly or implicitly recommend or suggest any investment strategy of any kind.
+The content on the Services is strictly for informational purposes. Nothing on or in the Services shall constitute or be construed as an offering of any currency or any financial instrument or as investment advice or investment recommendations (such as recommendations as to whether to purchase a currency or instrument) by Roostoo or a recommendation as to an investment strategy by Roostoo. Content on the Services should not be considered as information sufficient to base an investment strategy upon. No content on the Services is tailored to the specific needs of any individual, entity or group of individuals. Roostoo expresses no opinion as to the future or expected value of any currency, security or other interest. Roostoo does not explicitly or implicitly recommend or suggest any investment strategy of any kind.
 
 The content provided on the Services is submitted to Roostoo by third-party providers. Roostoo does not review all content for accuracy, does not review content for completeness or reliability, and does not warrant or guarantee the accuracy, completeness, reliability or any other aspect of any content.
 
 The Services and the content published within the Services may include inaccuracies or errors. Roostoo does not guarantee the accuracy, completeness, timeliness, security, availability or integrity of the Services or any content, and disclaims all liability for any errors or other inaccuracies relating to the Services or the content. Roostoo makes no representations about the suitability of the Services or any content, or that the Services or content will be uninterrupted or operate in combination with any software, service, system or other data or information. The Services and all content are provided “as is” without warranty of any kind. Roostoo disclaims all warranties and conditions that this service, its servers, or any email sent from Roostoo, are free of viruses or other harmful components. Roostoo hereby disclaims all warranties and conditions with regard to the Services and the content, including all implied warranties and conditions of merchantability, fitness for a particular purpose, title, and noninfringement.
 
-To the maximum extent permitted by applicable law, Roostoo assumes no liability or responsibility for any (i) errors, mistakes, or inaccuracies of any content; (ii) personal injury or property damage, of any nature whatsoever, resulting from your access to or use of the service; (iii) any unauthorized access to or use of our servers and/or any and all information stored therein; (iv) any interruption or cessation of transmission to or from the Services; (v) any bugs, viruses, trojan horses, or the like that may be transmitted to or through the Services by any third party; (vi) any errors or omissions in any content or for any loss or damage incurred as a result of the use of any content posted, transmitted, or otherwise made available through the Services; and/or (vii) the defamatory, offensive, or illegal conduct of any third party.
+To the maximum extent permitted by applicable law, Roostoo assumes no liability or responsibility for any (i) errors, mistakes, or inaccuracies of any content; (ii) personal injury or property damage, of any nature whatsoever, resulting from your access to or use of the service; (iii) any unauthorized access to or use of our servers and/or any and all information stored therein; (iv) any interruption or cessation of transmission to or from the Services; (v) any bugs, viruses, trojan horses, or the like that may be transmitted to or through the Services by any third party; (vi) any errors or omissions in any content or for any loss or damage incurred as a result of the use of any content posted, transmitted, or otherwise made available through the Services; and (vii) the defamatory, offensive, or illegal conduct of any third party.
 
 In no event shall Roostoo (and its respective officers, directors, employees, members, agents, partners and affiliates) be liable for any direct, indirect, punitive, incidental, special, or consequential damages or damages for lost profits, arising out of, or in any way connected with, your access to or use of the Services or with the delay or inability to access, display, or use the service; any computer viruses, information, software, linked services, products, and services obtained through the Services; or otherwise arising out of the access to or use of the Services whether based on a theory of negligence, contract, tort, strict liability, or otherwise, and even if Roostoo has been advised of the possibility of such damages. In no event shall Roostoo (and its respective officers, directors, employees, members, agents, partners and affiliates) be liable to you for any claims, proceedings, liabilities, obligations, damages, losses or costs. The limitation of liability reflects the allocation of risk between the parties. The limitations specified in this section will survive and apply even if any limited remedy specified in these terms is found to have failed of its essential purpose. The disclaimers, exclusions, and limitations of liability under this agreement will not apply to the extent prohibited by applicable law.
-
 
 ## Prohibited Uses
 
@@ -169,7 +173,7 @@ If any provision or part of a provision of these Terms is unlawful, void or unen
 
 Our Services Terms of Use and accordingly your agreement thereto shall be governed by and construed in accordance with the laws of the Hong Kong Special Administrative Region, without reference to any conflict-of-law principles.
 
-In the event of any disputes arising from this Website Terms of Use or any of the other provisions of the Agreement, your use of our App, our Website and/or Content, you must first contact our Company’s officer at contact@roostoo.com regarding your dispute, and use your best endeavours to amicably settle any dispute in good faith. We on our part will also use our best endeavours to amicably settle your concerns in good faith. However, if no amicable resolution is reached within 30 days, both parties agree to submit to the exclusive jurisdiction of the Courts of Hong Kong.
+In the event of any disputes arising from this Website Terms of Use or any of the other provisions of the Agreement, your use of our App, our Website and/or Content, you must first contact our Company’s officer at contact@roostoo.com regarding your dispute, and use your best endeavours to amicably settle any dispute in good faith. We on our part will also use our best endeavours to amicably settle your concerns in good faith. However, if no amicable resolution is reached within 60 days, both parties agree to submit to the exclusive jurisdiction of the Courts of the Hong Kong SAR.
 
 
 ## General
@@ -189,7 +193,5 @@ Any provision of the above Disclaimer and Limitation of Liability section that i
 
 ## CFTC RULE 4.41 
 
-HYPOTHETICAL OR SIMULATED PERFORMANCE RESULTS HAVE CERTAIN LIMITATIONS. UNLIKE AN ACTUAL PERFORMANCE RECORD, SIMULATED RESULTS DO NOT REPRESENT ACTUAL TRADING. ALSO, SINCE THE TRADES HAVE NOT BEEN EXECUTED, THE RESULTS MAY HAVE UNDER-OR-OVER COMPENSATED FOR THE IMPACT, IF ANY, OF CERTAIN MARKET FACTORS, SUCH AS LACK OF LIQUIDITY. SIMULATED TRADING PROGRAMS IN GENERAL ARE ALSO SUBJECT TO THE FACT THAT THEY ARE DESIGNED WITH THE BENEFIT OF HINDSIGHT. NO REPRESENTATION IS BEING MADE THAT YOUR PERFORMANCE WILL OR IS LIKELY TO ACHIEVE PROFIT OR LOSSES SIMILAR TO THOSE SHOWN.
-
-
+– HYPOTHETICAL OR SIMULATED PERFORMANCE RESULTS HAVE CERTAIN LIMITATIONS. UNLIKE AN ACTUAL PERFORMANCE RECORD, SIMULATED RESULTS DO NOT REPRESENT ACTUAL TRADING. ALSO, SINCE THE TRADES HAVE NOT BEEN EXECUTED, THE RESULTS MAY HAVE UNDER-OR-OVER COMPENSATED FOR THE IMPACT, IF ANY, OF CERTAIN MARKET FACTORS, SUCH AS LACK OF LIQUIDITY. SIMULATED TRADING PROGRAMS IN GENERAL ARE ALSO SUBJECT TO THE FACT THAT THEY ARE DESIGNED WITH THE BENEFIT OF HINDSIGHT. NO REPRESENTATION IS BEING MADE THAT YOUR PERFORMANCE WILL OR IS LIKELY TO ACHIEVE PROFIT OR LOSSES SIMILAR TO THOSE SHOWN.’’
 
