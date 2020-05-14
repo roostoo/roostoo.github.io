@@ -3,10 +3,13 @@ company_links:
   link: /about
 - text: Blog
   link: https://medium.com/roostoo
+- text: Education
+  link: /education
+- text: RSTO
+  link: /rsto
 - text: Careers
   link: /careers
-# - text: Download
-#   link: /download
+
 
 legal_links:
 - text: Terms of Service
