@@ -24,6 +24,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.roostoo.com" # the base hostname & protocol for your site, e.g. http://example.com
 play_store_url: "https://play.google.com/store/apps/details?id=com.roostoo.roostoo&referrer=utm_source%3Droostoo%26utm_medium%3Dwebsite"
 app_store_url: "https://apps.apple.com/us/app/roostoo-mock-crypto-trading/id1483561353"
+apk_file_url: "https://static.roostoo.com/app/app-release-v121b22.apk"
 twitter_username: roostoo_crypto
 instagram_username: roostoo_crypto
 github_username:  roostoo
