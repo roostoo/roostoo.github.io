@@ -33,9 +33,9 @@ The primary function of RSTO is to reward good mock traders on Roostoo. We decid
 Users in each Roostoo regular competition will be divided into different tiers according to their final ranking. Each tier will share a portion of the total RSTO pooled from all users who joined the competition:
 
 * Tier 1 (*Ranked Top 10%*) : 25% of Pool
-* Tier 2 (*Ranked 11% – 30%*) : 25% of Pool
-* Tier 3 (*Ranked 31% – 60%*) : 20% of Pool
-* Tier 4 (*Ranked 61% – 100%*) : 10% of Pool
+* Tier 2 (*Ranked 10% – 30%*) : 25% of Pool
+* Tier 3 (*Ranked 30% – 60%*) : 20% of Pool
+* Tier 4 (*Ranked 60% – 100%*) : 10% of Pool
 * Bonus Pool (*For top 10 users*) : 9.5% of Pool
 * Commission Burn : 10.5% of Pool
 
@@ -61,9 +61,9 @@ This will be the payout scheme distributing the pool (2000 RSTO) to each ranking
 |Tier (Ranking) 	|% Pool Distribution for Tier	|RSTO
 |--- |--- |--- |
 |Top 10%	                    |25% of Pool	    |500
-|11%--30% 	                    |25% of Pool	    |500
-|31%--60%	                    |20% of Pool	    |400
-|61%--100%	                    |10% of Pool	    |200
+|10%--30% 	                    |25% of Pool	    |500
+|30%--60%	                    |20% of Pool	    |400
+|60%--100%	                    |10% of Pool	    |200
 |Bonus Pool (for top 10 user)	|9.5% of Pool	    |190
 |Commission Burn	            |10.5% of Pool	    |210
 
@@ -73,9 +73,9 @@ If you join a 7-day regular competition of 100 participants, this will be your p
 |Tier (Ranking) |Pool RSTO for Tier |No. of Users	|Payout per User	|Paid-In per User 	|Profit 	|% Return 
 |--- |--- |--- |--- |--- |--- |--- |
 |Top 10%    |500 RSTO   |10	|+50 RSTO	    |-20  RSTO	|+30	    |150%
-|11%--30% 	|500 RSTO	|20	|+25 RSTO	    |-20  RSTO	|+5	    |25%
-|31%--60%	|400 RSTO	|30	|+13.33  RSTO	|-20  RSTO	|-6.67	|-33%
-|61%--100%	|200 RSTO	|40	|+5  RSTO	    |-20  RSTO	|-15	    |-75%
+|10%--30% 	|500 RSTO	|20	|+25 RSTO	    |-20  RSTO	|+5	    |25%
+|30%--60%	|400 RSTO	|30	|+13.33  RSTO	|-20  RSTO	|-6.67	|-33%
+|60%--100%	|200 RSTO	|40	|+5  RSTO	    |-20  RSTO	|-15	    |-75%
 
 If you are skillful and make it to the top 10 on the leaderboard, you enjoy extra bonus RSTO:
 
