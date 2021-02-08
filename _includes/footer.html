@@ -6,7 +6,7 @@
                 <ul>
                     {% for item in site.data.footer.company_links %}
                     <li>
-                        <a href="{{ item.link }}">{{ item.text }}</a>
+                        <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.text }}</a>
                     </li>
                     {% endfor %}
                 </ul>
@@ -17,7 +17,7 @@
                 <ul>
                     {% for item in site.data.footer.legal_links %}
                     <li>
-                        <a href="{{ item.link }}">{{ item.text }}</a>
+                        <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.text }}</a>
                     </li>
                     {% endfor %}
                 </ul>
@@ -37,15 +37,15 @@
                     <h1 class="is-uppercase has-text-weight-bold">Download</h1>
                     <div class="columns">
                         <a
-                            href='{{ site.play_store_url }}'><img
+                            href='{{ site.play_store_url }}' target="_blank" rel="noopener noreferrer"><img
                                 alt='Get it on Google Play'
                                 src='/assets/img/play_badge.png'
                                 style="max-height:5em;margin-top:8px;margin-right:8px" /></a>
-                        <a href="{{ site.app_store_url }}"><img alt='Download on App Store' src='/assets/img/download-on-app-store.png'
+                        <a href="{{ site.app_store_url }}" target="_blank" rel="noopener noreferrer"><img alt='Download on App Store' src='/assets/img/download-on-app-store.png'
                                 style="max-height:5em;margin-top:8px" /></a>
                     </div>
                     <div>
-                        <a href="{{ site.apk_file_url }}">Download Android APK</a>
+                        <a href="{{ site.apk_file_url }}" target="_blank" rel="noopener noreferrer">Download Android APK</a>
                     </div>
             </div>
             </section>

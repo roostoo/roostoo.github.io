@@ -212,19 +212,14 @@
 
         // Get the element with id="defaultOpen" and click on it
         document.getElementById("defaultOpen").click();
-        var index = 0;
-        setInterval(myMethod, 5000);
-
+        document.getElementsByClassName("tablinks")[0].click();
+        setInterval(myMethod, 7000);
+        var temp = index;
         function myMethod() {
-            if (index == 2) {
-                index = 0;
-            } else {
-                index++;
-            }
-            document.getElementsByClassName("tablinks")[index].click();
+            document.getElementsByClassName("tablinks")[temp%3].click(); 
+            temp++;
         }
     </script>
-
 </body>
 
 </html>
