@@ -303,6 +303,26 @@
   }
 }
 
+/* Fix carousel for 16 logos per set (32 total) */
+.logo-track {
+  animation-duration: 50s;
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+@media (max-width: 640px) {
+  .logo-card {
+    min-width: 130px;
+    height: 64px;
+    padding: 0.75rem 1rem;
+  }
+
+  .logo-track {
+    animation-duration: 90s;
+  }
+}
+
 .portal-link {
   display: inline-block;
   text-decoration: none;
