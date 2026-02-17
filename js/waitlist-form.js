@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
       '<span class="waitlist-label">Confirmed</span>' +
       '<h2 class="waitlist-title">You\'re on the list</h2>' +
       '<p class="waitlist-copy">We\'ll notify you <span class="text-accent">as soon as access opens</span> — including new <span class="text-white">Agent releases</span> and live <span class="text-white">trading competitions</span>.</p>' +
-      '<p class="waitlist-hint">No spam — just launches and invites.</p>';
+      '<p class="waitlist-hint">No spam — just launches and invites.</p>' +
+      '<a href="https://app.roostoo.com" class="waitlist-submit portal-link">Go to Roostoo Portal</a>';
   }
 });
