@@ -1,0 +1,75 @@
+/* Shared security-focused styles: no inline CSS required. */
+html {
+  scroll-behavior: auto;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+@keyframes loader-fade {
+  to {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@keyframes loader-slide {
+  0% {
+    transform: translateX(-16px);
+  }
+  100% {
+    transform: translateX(16px);
+  }
+}
+
+.loader-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #0a0a0a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: loader-fade 0.4s ease 0.4s forwards;
+  opacity: 1;
+}
+
+.loader-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.loader-icon-dim {
+  color: transparent;
+  opacity: 0.9;
+}
+
+.loader-track {
+  width: 32px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.loader-bar {
+  width: 50%;
+  height: 100%;
+  background: #ff6a33;
+  border-radius: 2px;
+  animation: loader-slide 0.8s ease-in-out infinite alternate;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-accent {
+  color: #ff6a33;
+}
+
+.img-transparent {
+  color: transparent;
+}
