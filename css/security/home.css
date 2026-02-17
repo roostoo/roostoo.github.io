@@ -309,17 +309,52 @@
   will-change: transform;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 @media (max-width: 640px) {
+  .logo-track-wrapper {
+    overflow: hidden;
+    padding-inline: 0.75rem;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
   .logo-card {
-    min-width: 130px;
-    height: 64px;
-    padding: 0.75rem 1rem;
+    min-width: clamp(108px, 34vw, 132px);
+    height: 58px;
+    padding: 0.55rem 0.8rem;
+    filter: none;
+    opacity: 0.95;
+  }
+
+  .logo-card-img {
+    max-height: 30px;
+    max-width: 100%;
   }
 
   .logo-track {
-    animation-duration: 90s;
+    gap: 1rem;
+    animation: scroll-logos-mobile 60s linear infinite;
+    width: max-content;
+    will-change: transform;
+    contain: paint;
+  }
+}
+
+@media (max-width: 420px) {
+  .logo-track-wrapper {
+    padding-inline: 0.5rem;
+  }
+}
+
+@keyframes scroll-logos-mobile {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
