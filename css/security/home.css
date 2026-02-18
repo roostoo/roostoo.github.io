@@ -5,18 +5,10 @@
 
 .hero-stage {
   position: relative;
-  height: 100dvh;
+  height: 100vh;
+  height: 100svh;
 }
 
-.svg-defs-hidden {
-  position: absolute;
-  width: 0;
-  height: 0;
-}
-
-.grain-filter {
-  filter: url(#grain);
-}
 
 .brand-lockup {
   display: flex;
@@ -86,11 +78,11 @@
 :root {
   --bg: #0a0a0a;
   --silver: #e0e0e0;
-  --accent: #ff3c00;
   --grain-opacity: 0.15;
 }
 
 .halide-body {
+  --accent: #ff3c00;
   position: relative;
   background-color: var(--bg);
   color: var(--silver);
@@ -104,7 +96,8 @@
   justify-content: center;
 }
 
-.halide-grain {
+.halide-body::before {
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -113,6 +106,8 @@
   pointer-events: none;
   z-index: 100;
   opacity: var(--grain-opacity);
+  background: url('/img/grain.png') repeat;
+  background-size: 256px 256px;
 }
 
 .viewport {
@@ -130,7 +125,7 @@
   width: min(800px, 90vw);
   height: min(500px, 60vh);
   transform-style: preserve-3d;
-  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
 }
 
 .layer {
@@ -139,7 +134,7 @@
   border: 1px solid rgba(224, 224, 224, 0.1);
   background-size: cover;
   background-position: center;
-  transition: transform 0.5s ease;
+  will-change: transform;
 }
 
 .layer-1 {
@@ -310,6 +305,7 @@
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
+  contain: layout style paint;
 }
 
 .logo-card {
@@ -322,8 +318,6 @@
   align-items: center;
   justify-content: center;
   background: rgba(255, 255, 255, 0.92);
-  filter: none;
-  opacity: 1;
 }
 
 .logo-card-img {
@@ -368,6 +362,10 @@
 .cta-button:focus-visible {
   outline: 2px solid #ff6a33;
   outline-offset: 2px;
+}
+
+.waitlist-hint {
+  color: rgba(245, 245, 245, 0.6);
 }
 
 @media (prefers-reduced-motion: reduce) {

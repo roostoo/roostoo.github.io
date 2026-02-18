@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charSet="utf-8" />
-    <script src="/js/scroll-top.js"></script>
+    <script src="/js/scroll-top.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       http-equiv="Content-Security-Policy"
@@ -14,6 +14,7 @@
     <link rel="preload" href="/_next/static/media/80680c420594b047-s.p.8bd70770.woff2" as="font" crossorigin="" type="font/woff2" />
     <link rel="preload" href="/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2" as="font" crossorigin="" type="font/woff2" />
     <link rel="preload" as="image" href="/roostoo_icon.svg" />
+    <link rel="preload" href="/bgimg.webp" as="image" type="image/webp" />
     <link rel="stylesheet" href="/_next/static/chunks/870c111f93d9b936.css" data-precedence="next" />
     <link rel="stylesheet" href="/css/security/common.css" />
     <link rel="stylesheet" href="/css/security/home.css" />
@@ -47,16 +48,9 @@
     <div class="overflow-x-hidden">
       <div class="hero-stage">
         <div class="halide-body">
-          <svg class="svg-defs-hidden">
-            <filter id="grain">
-              <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3"></feTurbulence>
-              <feColorMatrix type="saturate" values="0"></feColorMatrix>
-            </filter>
-          </svg>
-          <div class="halide-grain grain-filter"></div>
           <div class="interface-grid">
             <div class="brand-lockup">
-              <img alt="Roostoo" loading="lazy" width="28" height="28" decoding="async" data-nimg="1" class="img-transparent" src="/roostoo_icon.svg" />
+              <img alt="Roostoo" loading="eager" width="28" height="28" decoding="async" data-nimg="1" class="img-transparent" src="/roostoo_icon.svg" />
               <span class="brand-wordmark">ROOSTOO</span>
             </div>
             <div class="live-counter">
@@ -64,9 +58,9 @@
               <div>TRADING ARENA</div>
             </div>
             <div class="hero-title">
-              <p class="hero-headline">
+              <h1 class="hero-headline">
                 <span class="text-accent">AI trading agents</span> are powerful – but only a few can build and deploy them safely.
-              </p>
+              </h1>
               <p class="hero-sub">
                 <span class="text-white">Roostoo</span> is the Agent × Human <span class="text-accent">Trading Arena</span> – where humans and AI agents compete, learn, and earn together.
               </p>
