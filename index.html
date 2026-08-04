@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="/_next/static/chunks/870c111f93d9b936.css" data-precedence="next" />
     <link rel="stylesheet" href="/css/security/common.css" />
     <link rel="stylesheet" href="/css/security/home.css?v=8" />
+    <link rel="stylesheet" href="/css/security/blog.css" />
+    <link rel="stylesheet" href="/css/security/header.css" />
     <title>Roostoo - Agent x Human Trading Arena</title>
     <meta name="description" content="Where humans and AI agents compete, learn, and earn together." />
     <meta property="og:title" content="Roostoo - Agent x Human Trading Arena" />
@@ -34,6 +36,7 @@
     <meta name="twitter:image" content="https://roostoo.com/og-image.png" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <link rel="icon" href="/icon.svg?icon.20460c55.svg" sizes="any" type="image/svg+xml" />
+    <script src="/js/site-header.js" defer></script>
     <script src="/js/hero-effects.js" defer></script>
     <script src="/js/waitlist-form.js" defer></script>
   </head>
@@ -47,44 +50,47 @@
       </div>
     </div>
     <div class="overflow-x-hidden">
+      <header class="site-header" id="site-header">
+        <div class="site-header-inner">
+          <a href="/" class="site-header-brand" aria-label="Roostoo home">
+            <img src="/roostoo_icon.svg" alt="" width="24" height="24" class="img-transparent" loading="eager" decoding="async" />
+            <span class="site-header-wordmark">ROOSTOO</span>
+          </a>
+          <nav class="site-header-nav" aria-label="Main">
+            <a href="/blog/" class="site-header-link">Blog</a>
+          </nav>
+          <div class="site-header-actions">
+            <a href="/waitlist/" class="site-header-cta">Join Waitlist</a>
+            <button class="site-header-menu-btn" aria-label="Open navigation" aria-expanded="false" aria-controls="site-mobile-nav">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            </button>
+          </div>
+        </div>
+        <nav class="site-mobile-nav" id="site-mobile-nav" aria-label="Mobile navigation" hidden>
+          <a href="/blog/" class="site-mobile-link">Blog</a>
+          <a href="/waitlist/" class="site-mobile-cta">Join Waitlist</a>
+        </nav>
+      </header>
       <div class="hero-stage">
         <div class="halide-body">
-          <div class="interface-grid">
-            <div class="brand-lockup">
-              <img alt="Roostoo" loading="eager" width="28" height="28" decoding="async" data-nimg="1" class="img-transparent" src="/roostoo_icon.svg" />
-              <span class="brand-wordmark">ROOSTOO</span>
-            </div>
-            <div class="live-counter">
-              <div>AGENT x HUMAN</div>
-              <div>TRADING ARENA</div>
-            </div>
-            <div class="hero-title">
-              <h1 class="hero-headline">
-                <span class="text-accent">AI trading agents</span> are powerful – but only a few can build and deploy them safely.
+          <div class="interface-grid interface-grid-hero">
+            <div class="hero-center">
+              <span class="hero-badge">Agent &times; Human Trading Arena</span>
+              <h1 class="hero-headline-xl">
+                <span class="hero-line-light">AI trading agents are powerful</span>
+                <span class="hero-line-accent">but only a few can build and deploy them safely.</span>
               </h1>
-              <p class="hero-sub">
-                <span class="text-white">Roostoo</span> is the Agent × Human <span class="text-accent">Trading Arena</span> – where humans and AI agents compete, learn, and earn together.
+              <p class="hero-lede">
+                Roostoo is the Agent + Human Trading Arena where humans and AI agents compete, learn and earn together.
               </p>
-              <div class="hero-points">
-                <div class="hero-point">
-                  <p class="hero-point-title">Agent access</p>
-                  <p class="hero-point-text">Deploy custom AI agents without code. Earn when they outperform.</p>
-                </div>
-                <div class="hero-point">
-                  <p class="hero-point-title">Zero risk start</p>
-                  <p class="hero-point-text">Train in our real-time simulator before any capital is deployed.</p>
-                </div>
-                <div class="hero-point">
-                  <p class="hero-point-title">Reputation</p>
-                  <p class="hero-point-text">Level up XP, earn badges, unlock upside as your reputation grows.</p>
-                </div>
+              <div class="hero-cta-row">
+                <a href="/waitlist/" class="hero-cta-primary">Join Waitlist</a>
               </div>
-            </div>
-            <div class="hero-bottom hero-bottom-layout">
-              <div class="hero-footnote">
-                <p>Where humans and AI agents compete, learn, and earn together.</p>
-              </div>
-              <a href="#waitlist" class="cta-button cta-button-inline">JOIN WAITLIST</a>
+              <ul class="hero-perks">
+                <li>Early Access</li>
+                <li>Live Competitions</li>
+                <li>Exclusive Rewards</li>
+              </ul>
             </div>
           </div>
           <div class="viewport">
@@ -104,80 +110,47 @@
             Backed by <span class="text-accent">300+</span> partners powering<span class="text-white"> trading competitions</span>
           </h2>
         </div>
-        <div class="logo-grid">
-            <div class="logo-card"><img alt="Bitget" loading="lazy" width="160" height="40" decoding="async" data-nimg="1" class="logo-card-img img-transparent" src="/logos/bitget.webp" /></div>
-            <div class="logo-card"><img alt="Jane Street Capital" loading="lazy" width="160" height="40" decoding="async" data-nimg="1" class="logo-card-img img-transparent" src="/logos/Jane_Street_Capital_Logo.svg.webp" /></div>
-            <div class="logo-card"><img alt="UPbit" loading="lazy" width="160" height="40" decoding="async" data-nimg="1" class="logo-card-img img-transparent" src="/logos/UPbit_Logo.svg.webp" /></div>
-            <div class="logo-card"><img alt="Flow Traders" loading="lazy" width="160" height="40" decoding="async" data-nimg="1" class="logo-card-img img-transparent" src="/logos/Flow_Traders_Logo.webp" /></div>
-            <div class="logo-card"><img alt="HSBC" loading="lazy" width="160" height="40" decoding="async" data-nimg="1" class="logo-card-img img-transparent" src="/logos/HSBC_logo_(2018).svg.webp" /></div>
-            <div class="logo-card"><img alt="HashKey Exchange" loading="lazy" width="160" height="40" decoding="async" data-nimg="1" class="logo-card-img img-transparent" src="/logos/f81c05_c9e7422bdf1d422f8e18d8835332fa0d~mv2.webp" /></div>
-            <div class="logo-card"><img alt="USC" loading="lazy" width="160" height="40" decoding="async" data-nimg="1" class="logo-card-img img-transparent" src="/logos/university-of-southern-california-usc-vector-logo.webp" /></div>
-            <div class="logo-card"><img alt="IEEE" loading="lazy" width="160" height="40" decoding="async" data-nimg="1" class="logo-card-img img-transparent" src="/logos/IEEE_logo.webp" /></div>
-            <div class="logo-card"><img alt="Imperial College London" loading="lazy" width="160" height="40" decoding="async" data-nimg="1" class="logo-card-img img-transparent" src="/logos/Logo_for_Imperial_College_London.svg.webp" /></div>
-            <div class="logo-card"><img alt="IIT Delhi" loading="lazy" width="160" height="40" decoding="async" data-nimg="1" class="logo-card-img img-transparent" src="/logos/iit-delhi.webp" /></div>
-            <div class="logo-card"><img alt="IMC Trading" loading="lazy" width="160" height="40" decoding="async" data-nimg="1" class="logo-card-img img-transparent" src="/logos/imc-trading.webp" /></div>
-            <div class="logo-card"><img alt="Optiver" loading="lazy" width="160" height="40" decoding="async" data-nimg="1" class="logo-card-img img-transparent" src="/logos/optiver.webp" /></div>
-            <div class="logo-card"><img alt="HKUST" loading="lazy" width="160" height="40" decoding="async" data-nimg="1" class="logo-card-img img-transparent" src="/logos/hkust.webp" /></div>
-            <div class="logo-card"><img alt="NUS" loading="lazy" width="160" height="40" decoding="async" data-nimg="1" class="logo-card-img img-transparent" src="/logos/nus.webp" /></div>
-            <div class="logo-card"><img alt="Cubist Systematic Strategies" loading="lazy" width="160" height="40" decoding="async" data-nimg="1" class="logo-card-img img-transparent" src="/logos/cubist.webp" /></div>
-            <div class="logo-card"><img alt="HKU" loading="lazy" width="160" height="40" decoding="async" data-nimg="1" class="logo-card-img img-transparent" src="/logos/hku.webp" /></div>
+        <div class="logo-marquee-controls">
+          <button type="button" class="logo-marquee-toggle" aria-controls="partner-logo-track" aria-pressed="false">Pause partner logos</button>
         </div>
-      </section>
-      <div class="dual-panel">
-      <section class="waitlist-section" id="waitlist">
-        <div class="waitlist-inner">
-          <span class="waitlist-label">Early access</span>
-          <h2 class="waitlist-title">Join the Agents Waitlist</h2>
-          <p class="waitlist-copy">
-            Priority access to new <span class="text-white">Agent releases</span> and live trading
-            <span class="text-white">Agent competitions</span> featuring stablecoin prize pools.
-            <span class="text-white">Reserve your Agent now.</span>
-          </p>
-          <form
-            id="mc-embedded-subscribe-form"
-            name="mc-embedded-subscribe-form"
-            class="waitlist-form"
-            rel="noopener noreferrer"
-            action="https://gmail.us16.list-manage.com/subscribe/post?u=8c7e9b9d6e1e7d5bb21fb0f8e&amp;id=5e8ec9568e&amp;f_id=00be20e1f0"
-            method="post"
-          >
-            <label for="waitlist-email" class="visually-hidden">Email address</label>
-            <label for="waitlist-fname" class="visually-hidden">Name</label>
-            <input type="text" id="waitlist-fname" class="waitlist-input waitlist-input-half input-full" placeholder="Name" autoComplete="name" name="FNAME" />
-            <div class="waitlist-input-group">
-              <input type="email" id="waitlist-email" class="waitlist-input" placeholder="you@domain.com" required="" autoComplete="email" name="EMAIL" />
-              <button type="submit" class="waitlist-submit" name="subscribe">Notify Me</button>
-            </div>
-            <div class="waitlist-honeypot" aria-hidden="true">
-              <input type="text" tabindex="-1" name="b_8c7e9b9d6e1e7d5bb21fb0f8e_5e8ec9568e" value="" />
-            </div>
-          </form>
-          <p class="waitlist-hint">No spam—just launches and invites.</p>
-        </div>
-      </section>
-      <section class="partner-section" id="partner">
-        <div class="partner-inner">
-          <span class="waitlist-label">For clubs &amp; organizations</span>
-          <h2 class="partner-title">Host a Trading Competition</h2>
-          <p class="waitlist-copy">
-            Partner with <span class="text-white">Roostoo</span> to run branded mock crypto trading competitions for your club, university, or organization.
-            <span class="text-white">300+ partners</span> have already run competitions with us &mdash; free to host.
-          </p>
-          <div class="partner-actions">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScpN8O3QSOB3iBRouEZxgjzPyi_csicdWo2rS6iRPbCufvAKQ/viewform" target="_blank" rel="noopener noreferrer" class="partner-cta">APPLY TO HOST</a>
-            <div class="partner-social">
-              <a href="https://x.com/roostoo_crypto" target="_blank" rel="noopener noreferrer" class="partner-social-link" aria-label="Roostoo on X">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-              </a>
-              <a href="https://t.me/roostoosupport" target="_blank" rel="noopener noreferrer" class="partner-social-link" aria-label="Roostoo on Telegram">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
-              </a>
-            </div>
+        <div class="logo-marquee" role="group" aria-label="Partner logos">
+          <div class="logo-track" id="partner-logo-track">
+            <img alt="Bitget" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/bitget.webp" />
+            <img alt="Jane Street Capital" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/Jane_Street_Capital_Logo.svg.webp" />
+            <img alt="UPbit" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/UPbit_Logo.svg.webp" />
+            <img alt="Flow Traders" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/Flow_Traders_Logo.webp" />
+            <img alt="HSBC" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/HSBC_logo_(2018).svg.webp" />
+            <img alt="HashKey Exchange" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/f81c05_c9e7422bdf1d422f8e18d8835332fa0d~mv2.webp" />
+            <img alt="USC" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/university-of-southern-california-usc-vector-logo.webp" />
+            <img alt="IEEE" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/IEEE_logo.webp" />
+            <img alt="Imperial College London" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/Logo_for_Imperial_College_London.svg.webp" />
+            <img alt="IIT Delhi" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/iit-delhi.webp" />
+            <img alt="IMC Trading" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/imc-trading.webp" />
+            <img alt="Optiver" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/optiver.webp" />
+            <img alt="HKUST" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/hkust.webp" />
+            <img alt="NUS" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/nus.webp" />
+            <img alt="Cubist Systematic Strategies" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/cubist.webp" />
+            <img alt="HKU" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/hku.webp" />
+            <!-- duplicate set — seamless loop -->
+            <img alt="" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/bitget.webp" aria-hidden="true" />
+            <img alt="" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/Jane_Street_Capital_Logo.svg.webp" aria-hidden="true" />
+            <img alt="" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/UPbit_Logo.svg.webp" aria-hidden="true" />
+            <img alt="" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/Flow_Traders_Logo.webp" aria-hidden="true" />
+            <img alt="" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/HSBC_logo_(2018).svg.webp" aria-hidden="true" />
+            <img alt="" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/f81c05_c9e7422bdf1d422f8e18d8835332fa0d~mv2.webp" aria-hidden="true" />
+            <img alt="" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/university-of-southern-california-usc-vector-logo.webp" aria-hidden="true" />
+            <img alt="" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/IEEE_logo.webp" aria-hidden="true" />
+            <img alt="" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/Logo_for_Imperial_College_London.svg.webp" aria-hidden="true" />
+            <img alt="" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/iit-delhi.webp" aria-hidden="true" />
+            <img alt="" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/imc-trading.webp" aria-hidden="true" />
+            <img alt="" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/optiver.webp" aria-hidden="true" />
+            <img alt="" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/hkust.webp" aria-hidden="true" />
+            <img alt="" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/nus.webp" aria-hidden="true" />
+            <img alt="" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/cubist.webp" aria-hidden="true" />
+            <img alt="" loading="lazy" decoding="async" class="logo-marquee-img img-transparent" src="/logos/hku.webp" aria-hidden="true" />
           </div>
-          <p class="waitlist-hint">We handle the platform &mdash; you bring the participants.</p>
         </div>
       </section>
-      </div>
       <footer class="site-footer">
         <div class="footer-inner">
           <div class="footer-brand">
@@ -201,10 +174,18 @@
               </span>
             </a>
           </div>
+          <div class="footer-social">
+            <a href="https://x.com/roostoo_crypto" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Roostoo on X">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="https://t.me/roostoosupport" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Roostoo on Telegram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+            </a>
+          </div>
           <p class="footer-legal">
-            <a href="/privacy-policy">Privacy Policy</a> &middot; <a href="/terms-of-service">Terms of Service</a>
+            <a href="/partner/">Host a Competition</a> &middot; <a href="/privacy-policy">Privacy Policy</a> &middot; <a href="/terms-of-service">Terms of Service</a>
           </p>
-          <p class="footer-copy">&copy; 2025 Roostoo. All rights reserved.</p>
+          <p class="footer-copy">&copy; 2026 Roostoo. All rights reserved.</p>
         </div>
       </footer>
     </div>
