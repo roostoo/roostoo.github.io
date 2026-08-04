@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var heading = document.createElement("h2");
     heading.className = "waitlist-title";
     heading.textContent = "You\u2019re on the list";
+    heading.setAttribute("tabindex", "-1");
 
     var copy = document.createElement("p");
     copy.className = "waitlist-copy";
@@ -68,5 +69,6 @@ document.addEventListener("DOMContentLoaded", function () {
     section.appendChild(copy);
     section.appendChild(hint);
     section.appendChild(link);
+    heading.focus();
   }
 });

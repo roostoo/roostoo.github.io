@@ -1,5 +1,23 @@
 (function () {
+  function initLogoMarquee() {
+    var marquee = document.querySelector('.logo-marquee');
+    var toggle = document.querySelector('.logo-marquee-toggle');
+    if (!marquee || !toggle) return;
+
+    function setPaused(paused) {
+      marquee.classList.toggle('is-paused', paused);
+      toggle.setAttribute('aria-pressed', paused ? 'true' : 'false');
+      toggle.textContent = paused ? 'Resume partner logos' : 'Pause partner logos';
+    }
+
+    toggle.addEventListener('click', function () {
+      setPaused(!marquee.classList.contains('is-paused'));
+    });
+  }
+
   function initHeroEffects() {
+    initLogoMarquee();
+
     var canvas = document.querySelector('.canvas-3d');
     if (!canvas) return;
 

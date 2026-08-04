@@ -10,4 +10,14 @@
     <lastmod>2026-02-16</lastmod>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://roostoo.com/blog/</loc>
+    <lastmod>2026-08-04</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://roostoo.com/blog/roostoo-manifesto/</loc>
+    <lastmod>2026-08-04</lastmod>
+    <priority>0.7</priority>
+  </url>
 </urlset>
