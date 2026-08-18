@@ -805,6 +805,16 @@
   outline-offset: 2px;
 }
 
+.waitlist-error {
+  margin: 0;
+  max-width: 520px;
+  color: #ff6a33;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .canvas-3d {
     transition: none !important;
