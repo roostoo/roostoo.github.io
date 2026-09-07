@@ -1,6 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var form = document.getElementById("mc-embedded-subscribe-form");
+  var form = document.getElementById("waitlist-form");
   if (!form) return;
+
+  // Google Apps Script endpoint
+  var APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxb7h80KICrU_FJGJSR63D0z53iNJvkLc_kRRn9n8RNWW-V22gGADYOcL6mG3mwqsrZig/exec";
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();
@@ -11,10 +14,28 @@ document.addEventListener("DOMContentLoaded", function () {
       btn.textContent = "Sending...";
     }
 
-    var formData = new FormData(form);
-    fetch(form.action, {
+    var emailInput = form.querySelector("#waitlist-email");
+    var honeypot = form.querySelector("[name='b_honeypot']");
+    var email = emailInput ? emailInput.value.trim() : "";
+
+    // Basic email check before sending
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      if (btn) {
+        btn.disabled = false;
+        btn.textContent = "Notify Me";
+      }
+      return;
+    }
+
+    var payload = new URLSearchParams();
+    payload.append("email", email);
+    payload.append("b_honeypot", honeypot ? honeypot.value : "");
+    payload.append("_origin", window.location.origin);
+
+    fetch(APPS_SCRIPT_URL, {
       method: "POST",
-      body: formData,
+      body: payload,
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
       mode: "no-cors",
     }).finally(function () {
       showThankYou();
@@ -25,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var section = document.querySelector(".waitlist-inner");
     if (!section) return;
 
-    // Build DOM nodes — never inject via innerHTML to avoid XSS patterns
+    // Build the thank you screen
     var label = document.createElement("span");
     label.className = "waitlist-label";
     label.textContent = "Confirmed";
