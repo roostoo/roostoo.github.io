@@ -491,6 +491,12 @@
   color: rgba(245, 245, 245, 0.6);
 }
 
+.waitlist-error {
+  color: #ff6a33;
+  font-size: 0.85rem;
+  margin: 0.75rem 0 0;
+}
+
 /* ── Unified page background: single black everywhere ── */
 .logo-section {
   background: #0a0a0a;
