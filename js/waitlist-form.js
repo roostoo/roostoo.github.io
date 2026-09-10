@@ -9,10 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
     e.preventDefault();
 
     var btn = form.querySelector(".waitlist-submit");
+    var btnLabel = btn ? btn.textContent : "";
     if (btn) {
       btn.disabled = true;
       btn.textContent = "Sending...";
     }
+    clearError();
 
     var emailInput = form.querySelector("#waitlist-email");
     var honeypot = form.querySelector("[name='b_honeypot']");
@@ -37,10 +39,32 @@ document.addEventListener("DOMContentLoaded", function () {
       body: payload,
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       mode: "no-cors",
-    }).finally(function () {
-      showThankYou();
+    }).then(showThankYou, function () {
+      // fetch rejects only when the request never left the browser (offline,
+      // DNS failure, blocked by an extension), so nothing was subscribed.
+      if (btn) {
+        btn.disabled = false;
+        btn.textContent = btnLabel;
+      }
+      showError();
     });
   });
+
+  function clearError() {
+    var existing = form.querySelector(".waitlist-error");
+    if (existing) existing.parentNode.removeChild(existing);
+  }
+
+  function showError() {
+    clearError();
+
+    var error = document.createElement("p");
+    error.className = "waitlist-error";
+    error.textContent =
+      "We couldn\u2019t reach the signup service, so your email wasn\u2019t submitted. Check your connection or ad blocker and try again.";
+
+    form.appendChild(error);
+  }
 
   function showThankYou() {
     var section = document.querySelector(".waitlist-inner");
