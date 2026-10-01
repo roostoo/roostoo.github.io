@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Google Apps Script endpoint
   var APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxb7h80KICrU_FJGJSR63D0z53iNJvkLc_kRRn9n8RNWW-V22gGADYOcL6mG3mwqsrZig/exec";
-  var RECAPTCHA_SITE_KEY = "6Letw7MtAAAAANEivGS55YttTNTciea1RZUelpZJ";
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();
@@ -28,31 +27,19 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
-    if (typeof grecaptcha === "undefined") {
+    var payload = new URLSearchParams();
+    payload.append("email", email);
+    payload.append("b_honeypot", honeypot ? honeypot.value : "");
+    payload.append("_origin", window.location.origin);
+
+    fetch(APPS_SCRIPT_URL, {
+      method: "POST",
+      body: payload,
+      mode: "no-cors",
+    }).then(function () {
+      showThankYou();
+    }, function () {
       resetButton(btn);
-      return;
-    }
-
-    grecaptcha.ready(function () {
-      grecaptcha.execute(RECAPTCHA_SITE_KEY, { action: "waitlist" }).then(function (token) {
-        var payload = new URLSearchParams();
-        payload.append("email", email);
-        payload.append("b_honeypot", honeypot ? honeypot.value : "");
-        payload.append("_origin", window.location.origin);
-        payload.append("recaptcha_token", token);
-
-        fetch(APPS_SCRIPT_URL, {
-          method: "POST",
-          body: payload,
-          mode: "no-cors",
-        }).then(function () {
-          showThankYou();
-        }, function () {
-          resetButton(btn);
-        });
-      }, function () {
-        resetButton(btn);
-      });
     });
   });
 
