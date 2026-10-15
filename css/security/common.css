@@ -26,7 +26,7 @@ html:focus-within {
   position: fixed;
   inset: 0;
   z-index: 9999;
-  background: #0a0a0a;
+  background: #050505;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,7 +57,7 @@ html:focus-within {
 .loader-bar {
   width: 50%;
   height: 100%;
-  background: #ff6a33;
+  background: #FFEF00;
   border-radius: 2px;
   animation: loader-slide 0.8s ease-in-out infinite alternate;
 }
@@ -67,7 +67,7 @@ html:focus-within {
 }
 
 .text-accent {
-  color: #ff6a33;
+  color: #FFEF00;
 }
 
 .img-transparent {
