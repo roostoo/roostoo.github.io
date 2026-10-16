@@ -1,0 +1,162 @@
+/* Partner / Host a Competition page */
+.host-section {
+  background: #0a0a0a;
+  padding: clamp(3rem, 6vw, 5rem) 2rem;
+}
+
+.host-inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.host-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.host-label {
+  display: inline-block;
+  color: #FFEF00;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.host-title {
+  color: #fff;
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  margin: 0 0 1.25rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.host-copy {
+  color: #9a9a9a;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 560px;
+  margin: 0 auto 0.75rem;
+}
+
+.host-tagline {
+  color: #b5b5b5;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin: 0 auto 2rem;
+}
+
+.host-cta {
+  display: inline-flex;
+  align-items: center;
+  height: 52px;
+  padding: 0 36px;
+  background: #FFEF00;
+  color: #0a0a0a;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.host-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(255, 239, 0, 0.28);
+}
+
+.host-cta:focus-visible {
+  outline: 2px solid #FFEF00;
+  outline-offset: 3px;
+}
+
+/* Features grid */
+.host-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.host-feature {
+  background: #0e0e0e;
+  border: 1px solid #1c1c1c;
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+.host-feature-icon {
+  color: #FFEF00;
+  margin-bottom: 1rem;
+}
+
+.host-feature-title {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+}
+
+.host-feature-text {
+  color: #9a9a9a;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Stats row */
+.host-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 2.5rem 0 0;
+  border-top: 1px solid #1c1c1c;
+}
+
+.host-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.host-stat-number {
+  color: #FFEF00;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.host-stat-label {
+  color: #9a9a9a;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 640px) {
+  .host-features {
+    grid-template-columns: 1fr;
+  }
+
+  .host-stats {
+    gap: 2rem;
+  }
+
+  .host-stat-number {
+    font-size: 1.6rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .host-cta {
+    transition: none;
+  }
+  .host-cta:hover {
+    transform: none;
+  }
+}
