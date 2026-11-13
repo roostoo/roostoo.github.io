@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; font-src 'self'; connect-src 'self' https://script.google.com https://script.googleusercontent.com; form-action 'self'; object-src 'none'; base-uri 'self'; upgrade-insecure-requests"
+    />
+    <link rel="preload" href="/_next/static/media/0c89a48fa5027cee-s.p.4564287c.woff2" as="font" crossorigin="" type="font/woff2" />
+    <link rel="preload" href="/_next/static/media/702db7bdc064d9ba-s.p.dda24631.woff2" as="font" crossorigin="" type="font/woff2" />
+    <link rel="preload" href="/_next/static/media/80680c420594b047-s.p.8bd70770.woff2" as="font" crossorigin="" type="font/woff2" />
+    <link rel="preload" href="/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2" as="font" crossorigin="" type="font/woff2" />
+    <link rel="stylesheet" href="/_next/static/chunks/870c111f93d9b936.css" data-precedence="next" />
+    <link rel="stylesheet" href="/css/security/common.css" />
+    <link rel="stylesheet" href="/css/security/header.css" />
+    <link rel="stylesheet" href="/css/security/home.css?v=12" />
+    <link rel="stylesheet" href="/css/security/blog.css?v=2" />
+    <title>How to Validate AI Agents Beyond Backtesting | Roostoo</title>
+    <meta name="description" content="A backtest is a take-home exam. It tells you the agent learned something. Here's what it doesn't tell you — and what to do instead." />
+    <link rel="canonical" href="https://roostoo.com/blog/beyond-backtesting/" />
+    <meta property="og:title" content="How to Validate AI Agents Beyond Backtesting" />
+    <meta property="og:description" content="A backtest is a take-home exam. It tells you the agent learned something. Here's what it doesn't tell you — and what to do instead." />
+    <meta property="og:site_name" content="Roostoo" />
+    <meta property="og:image" content="https://roostoo.com/assets/blog/beyond-backtesting.webp" />
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2026-11-12" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="How to Validate AI Agents Beyond Backtesting" />
+    <meta name="twitter:description" content="A backtest is a take-home exam. It tells you the agent learned something. Here's what it doesn't tell you — and what to do instead." />
+    <meta name="twitter:image" content="https://roostoo.com/assets/blog/beyond-backtesting.webp" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <link rel="icon" href="/icon.svg?icon.20460c55.svg" sizes="any" type="image/svg+xml" />
+    <script src="/js/scroll-top.js" defer></script>
+    <script src="/js/site-header.js" defer></script>
+  </head>
+  <body class="inter_fe8b9d92-module__LINzvG__variable space_grotesk_453a8ef9-module__iuVVja__variable syncopate_fb563b0e-module__FMCdgq__variable antialiased">
+    <header class="site-header" id="site-header">
+      <div class="site-header-inner">
+        <a href="/" class="site-header-brand" aria-label="Roostoo home">
+          <img src="/roostoo_icon.svg" alt="" width="24" height="24" class="img-transparent" loading="eager" decoding="async" />
+          <span class="site-header-wordmark">ROOSTOO</span>
+        </a>
+        <nav class="site-header-nav" aria-label="Main">
+          <a href="/blog/" class="site-header-link" aria-current="true">Blog</a>
+        </nav>
+        <div class="site-header-actions">
+          <a href="/waitlist/" class="site-header-cta">Join Waitlist</a>
+          <button class="site-header-menu-btn" aria-label="Open navigation" aria-expanded="false" aria-controls="site-mobile-nav">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          </button>
+        </div>
+      </div>
+      <nav class="site-mobile-nav" id="site-mobile-nav" aria-label="Mobile navigation" hidden>
+        <a href="/blog/" class="site-mobile-link" aria-current="true">Blog</a>
+        <a href="/waitlist/" class="site-mobile-cta">Join Waitlist</a>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <article class="article-section">
+        <div class="article-shell">
+          <a class="article-back" href="/blog/"><span aria-hidden="true">&larr;&nbsp;</span> Back to blog</a>
+
+          <header class="article-header">
+            <span class="article-kicker">Research</span>
+            <h1 class="article-title">How to Validate AI Agents Beyond Backtesting</h1>
+            <p class="article-deck">A backtest is a take-home exam. It tells you the agent learned something. It does not tell you the agent can apply the knowledge in real-time.</p>
+            <p class="article-meta">By Roostoo Team &middot; <time datetime="2026-11-12">12 Nov 2026</time></p>
+          </header>
+
+          <div class="article-hero-cover blog-cover-beyond-backtesting" role="img" aria-label="How to Validate AI Agents Beyond Backtesting"></div>
+
+          <div class="article-body">
+            <p>You&rsquo;ve probably seen it: someone shares a screenshot of a trading bot&rsquo;s backtest &mdash; a magnificently smooth line going up and to the right. Then they turn it on with real money, and the line goes south.</p>
+
+            <p>Quantopian once studied 888 trading algorithms from its users and found that backtest performance explained less than 2.5% of live results. Worse, the more a developer backtested, the bigger the gap became.</p>
+
+            <p class="article-callout"><strong>A backtest is like a take-home exam. It tells you the agent learned something. It does not tell you the agent can apply the knowledge well in real-time.</strong></p>
+
+            <p>Let&rsquo;s dive into two ways a backtest can mislead.</p>
+
+            <h2>Problem 1: Curve-fitting (or overfitting)</h2>
+
+            <p>The backtest assumes historical patterns will repeat. Live markets show that most of those patterns were noise.</p>
+
+            <p>Researchers Bailey, Borwein, L&oacute;pez de Prado, and Zhu showed that high simulated performance is easy to achieve after testing only a modest number of configurations. Overfit strategies can carry negative expected returns out of sample &mdash; and the more configurations tested, the worse the out-of-sample results tend to be.</p>
+
+            <h2>Problem 2: Peeking at the answers</h2>
+
+            <p>Sometimes backtesting lets the agent see the future by accident &mdash; like a feature that uses a bar&rsquo;s closing price before the bar has actually closed. The agent looks perfectly timed in the backtest. In real life, that information doesn&rsquo;t exist yet.</p>
+
+            <h2>So, how do we do better?</h2>
+
+            <p>The answer is a trading simulator with live prices and forward-testing on data unknown in advance. An agent can&rsquo;t overfit to or cheat on data that didn&rsquo;t exist when it was built.</p>
+
+            <p>That&rsquo;s why we built Roostoo&rsquo;s live paper trading competitions. We backtest agents to filter out obvious failures, then users deploy them into live competitions where they trade on prices nobody has seen yet.</p>
+
+            <p>We judge live agents on three things:</p>
+
+            <ol>
+              <li><strong>Robustness</strong> &mdash; whether weaker runs still do okay</li>
+              <li><strong>Capital protection</strong> &mdash; how shallow the worst drawdown is</li>
+              <li><strong>Profit probability</strong> &mdash; whether profit is consistent or concentrated in a few large moves</li>
+            </ol>
+
+            <h2>The agent trust ladder</h2>
+
+            <ul>
+              <li>A great backtest &mdash; <em>low trust</em></li>
+              <li>One great live competition &mdash; <em>low trust</em></li>
+              <li>Ten or more competitions across different markets &mdash; <em>medium trust</em></li>
+              <li>Consistent wins with shallow drawdowns &mdash; <em>high trust</em></li>
+            </ul>
+
+            <h2>Real Mode: capital</h2>
+
+            <p>Even then, paper isn&rsquo;t real. Liquidity, slippage, funding, and latency all differ on a real venue.</p>
+
+            <p>So the next step is trading with Real Mode. You start with a small ticket of real capital and set the guards: ticket limit, stop-loss, take-profit, and max leverage. You keep custody of your wallet keys.</p>
+
+            <p>Agents lose competitions. Real trading can lose real money. The guardrails are limits you choose to mitigate your risk.</p>
+
+            <h2>Over to you</h2>
+
+            <p>Why did we build Roostoo? So you can validate reinforcement learning trading agents on our platform, then deploy them to decentralized exchanges once you&rsquo;ve built up the confidence and trust. <a href="/waitlist/">Sign up to our waitlist for access.</a></p>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img alt="Roostoo" height="38" class="img-transparent" src="/assets/design/logo.png" />
+        </div>
+        <span class="footer-badge">Live now &middot; Trading Simulator</span>
+        <h3 class="footer-heading">Practice risk-free with the Roostoo <span class="text-accent">trading simulator</span>.</h3>
+        <p class="footer-tagline">Trade live crypto markets with virtual funds — build your edge, test strategies, and climb the leaderboard with zero risk. The AI Agent Arena is coming next; join the waitlist above to get in first.</p>
+        <div class="footer-store-links">
+          <a href="https://apps.apple.com/us/app/roostoo-mock-crypto-trading/id1483561353" target="_blank" rel="noopener noreferrer" class="store-badge" aria-label="Download on the App Store">
+            <svg class="store-badge-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            <span class="store-badge-text">
+              <span class="store-badge-sub">Download on the</span>
+              <span class="store-badge-main">App Store</span>
+            </span>
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.roostoo.roostoo&referrer=utm_source%3Droostoo%26utm_medium%3Dwebsite" target="_blank" rel="noopener noreferrer" class="store-badge" aria-label="Get it on Google Play">
+            <svg class="store-badge-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3.18 23.76A2 2 0 0 1 2 22V2a2 2 0 0 1 1.18-1.76l11.65 11.76L3.18 23.76z" fill="#00D2FF"/><path d="M20.45 13.9l-2.83 1.61-3.2-3.23 3.2-3.23 2.84 1.61a2 2 0 0 1 0 3.24z" fill="#FFBC00"/><path d="M3.18 23.76l11.24-11.38 3.2 3.23-12.55 7.13a2 2 0 0 1-1.89.02z" fill="#F43249"/><path d="M3.18.24A2 2 0 0 1 5.07.26l12.55 7.13-3.2 3.23L3.18.24z" fill="#00EE76"/></svg>
+            <span class="store-badge-text">
+              <span class="store-badge-sub">Get it on</span>
+              <span class="store-badge-main">Google Play</span>
+            </span>
+          </a>
+        </div>
+        <div class="footer-social">
+          <a href="https://x.com/roostooAI" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Roostoo on X">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-7 8 8.2 12h-6.4l-5-6.6L6.2 22H3l7.5-8.6L2.1 2h6.6l4.6 6.1L18.9 2zm-1.1 18h1.7L7.3 3.8H5.4L17.8 20z"/></svg>
+          </a>
+          <a href="https://t.me/roostoosupport" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Roostoo on Telegram">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.9 4.3 18.6 19c-.2 1-.9 1.3-1.8.8l-4.8-3.6-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.9L18 5.4c.4-.3-.1-.5-.6-.2L6.6 11.9l-4.7-1.5c-1-.3-1-1 .2-1.5L20.5 2.7c.9-.3 1.6.2 1.4 1.6z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-links">
+          <a href="/partner/">Host a Competition</a>
+          <a href="/privacy-policy">Privacy Policy</a>
+          <a href="/terms-of-service">Terms of Service</a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Roostoo. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

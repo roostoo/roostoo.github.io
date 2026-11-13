@@ -79,6 +79,11 @@
   justify-content: center;
 }
 
+.blog-grid.blog-grid-double {
+  grid-template-columns: repeat(2, minmax(0, 380px));
+  justify-content: center;
+}
+
 .blog-card {
   display: flex;
   flex-direction: column;
@@ -95,44 +100,41 @@
   border-color: rgba(255, 106, 51, 0.4);
 }
 
+.blog-card:hover .blog-card-cover {
+  filter: brightness(0.75);
+}
+
 .blog-card-cover {
   display: block;
   aspect-ratio: 16 / 9;
   background-color: #0c0c0e;
   background-image:
-    radial-gradient(circle at var(--glow-x, 30%) 42%, rgba(255, 60, 0, 0.28), transparent 62%),
+    var(--cover-image, none),
+    radial-gradient(circle at var(--glow-x, 30%) var(--glow-y, 42%), var(--glow-color, rgba(255, 60, 0, 0.28)), transparent var(--glow-spread, 62%)),
     repeating-linear-gradient(0deg, transparent 0, transparent 23px, rgba(255, 255, 255, 0.05) 24px),
     repeating-linear-gradient(90deg, transparent 0, transparent 23px, rgba(255, 255, 255, 0.05) 24px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  transition: filter 0.3s;
-}
-
-.blog-cover-1 {
-  --glow-x: 25%;
-}
-
-.blog-cover-2 {
-  --glow-x: 55%;
-}
-
-.blog-cover-3 {
-  --glow-x: 80%;
-}
-
-/* The gradient remains visible until the final image is added at this path. */
-.blog-cover-manifesto {
-  background-image:
-    url("/assets/blog/roostoo-manifesto.jpg"),
-    radial-gradient(circle at 35% 45%, rgba(255, 60, 0, 0.32), transparent 58%),
-    repeating-linear-gradient(0deg, transparent 0, transparent 31px, rgba(255, 255, 255, 0.05) 32px),
-    repeating-linear-gradient(90deg, transparent 0, transparent 31px, rgba(255, 255, 255, 0.05) 32px);
-  background-position: center;
+  background-position: var(--cover-position, center);
   background-size: cover;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  transition: filter 0.3s ease;
 }
 
-.blog-card:hover .blog-card-cover {
-  filter: brightness(1.25);
+/* Per-post cover variables — shared by both card (.blog-card-cover) and hero (.article-hero-cover) */
+.blog-cover-manifesto {
+  --cover-image: url("/assets/blog/roostoo-manifesto.jpg");
+  --glow-x: 35%; --glow-y: 45%;
+  --glow-color: rgba(255, 60, 0, 0.32);
+  --glow-spread: 58%;
 }
+
+.blog-cover-beyond-backtesting {
+  --cover-image: url("/assets/blog/beyond-backtesting.webp");
+  --glow-x: 65%; --glow-y: 40%;
+  --glow-color: rgba(255, 180, 0, 0.22);
+  --glow-spread: 60%;
+  --cover-position: center top;
+}
+
 
 .blog-card-body {
   display: flex;
@@ -230,7 +232,8 @@
     gap: 1rem;
   }
 
-  .blog-grid.blog-grid-single {
+  .blog-grid.blog-grid-single,
+  .blog-grid.blog-grid-double {
     grid-template-columns: minmax(0, 1fr);
   }
 
@@ -241,7 +244,6 @@
 
 @media (prefers-reduced-motion: reduce) {
   .blog-card,
-  .blog-card-cover,
   .blog-card-title a,
   .blog-card-link {
     transition: none;
@@ -320,11 +322,11 @@
   overflow: hidden;
   background-color: #0c0c0e;
   background-image:
-    url("/assets/blog/roostoo-manifesto.jpg"),
-    radial-gradient(circle at 35% 45%, rgba(255, 60, 0, 0.32), transparent 58%),
+    var(--cover-image, none),
+    radial-gradient(circle at var(--glow-x, 35%) var(--glow-y, 45%), var(--glow-color, rgba(255, 60, 0, 0.32)), transparent var(--glow-spread, 58%)),
     repeating-linear-gradient(0deg, transparent 0, transparent 31px, rgba(255, 255, 255, 0.05) 32px),
     repeating-linear-gradient(90deg, transparent 0, transparent 31px, rgba(255, 255, 255, 0.05) 32px);
-  background-position: center;
+  background-position: var(--cover-position, center);
   background-size: cover;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 18px;
